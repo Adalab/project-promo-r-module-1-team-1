@@ -1,0 +1,135 @@
+
+/*
+    font-family: 'Open Sans';
+    font-family: 'Rubik';
+*/
+h1{
+    text-align: center;
+    background-color: turquoise;
+}
+
+.menu {
+    background-color: turquoise;
+    padding: 5px;
+    
+
+}
+
+.lista{
+    display: flex;
+    
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen{
+    width: 100%;
+
+}
+.lema{
+    border: 3px;
+    
+}
+
+.title{
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    color: #14d9c4;
+    text-align: center;
+}
+.parrafo-equipo{
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: normal;
+    color: #54585a;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.info {
+    background-color: #b8b8b9;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fortalezas {
+    margin-top: 30px;
+}
+.debilidades {
+    margin-top: 30px;
+}
+.title-2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #099d8d;
+}
+.parrafo {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #54585a; 
+} 
+
+.quienes-somos .title {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 500;
+    color: #099d8d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.foto-compi1, .foto-compi2, .foto-compi3, .foto-compi4{
+    width: 180px;
+    height: 180px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 4px;
+    border: solid 5px var(--black-8);
+}
+
+.name-compi1, .name-compi2, .name-compi3, .name-compi4, .name-compi5{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 2.25;
+}
+
+
+.contenedor-footer { 
+
+    width: 320px;
+    height: 250px;
+    padding: 30px 74px 45px;
+ }
+ 
+ .footer-nombre {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #b8b8b9;
+    
+ }
+ 
+ .footer-equipo {
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ font-size: 16px;
+ color: #b8b8b9;
+ width: 114px;
+ height: 60px;
+ text-align: center;
+ }
+ 
+ .footer-logo {
+    width: 115.9px;
+    height: 45px;
+ }

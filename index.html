@@ -1,72 +1,220 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nombre equipo</title>
-    <link rel="stylesheet" href="./styles/main.css" class="css">
-</head>
-<body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+    </style>
+    <link rel="stylesheet" href="./styles/main.css" class="css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header>
-        <h1>
-            Título
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    Equipo 
-                </li>
-                <li>
-                    Quiénes somos
-                </li>
-                <li>
-                    Contacto
-                </li>
+        <h1>Code Makers</h1>
+        <nav class="menu">
+            <ul class="lista">
+                <li><a ref="equipo" href="" class="menu equipo">Equipo</a></li>
+                <li><a ref="quiénes somos" href="" class="menu quiénes somos">Quiénes somos</a></li>
+                <li><a ref="contacto" href="" class="menu contacto">Contacto</a></li>
+                            
             </ul>
         </nav>
-
-    <section class="hero">
-        <img src="https://www.lavanguardia.com/files/image_449_220/uploads/2021/10/08/61603269b6439.jpeg" alt="Foto de empresa"/>
-        <div class="lema">
-            Las mujeres somos el futuro de la programación.
-        </div>
-    </section>
+        
+        <section class="hero">
+             <div class="lema">
+                <img src="https://www.lavanguardia.com/files/image_449_220/uploads/2021/10/08/61603269b6439.jpeg" alt="Foto de empresa" class="imagen"/>
+                    Las mujeres somos el futuro de la programación.
+            </div>
+        </section>>
     </header>
     <main>
-        
-        <section class="section-1">
-            <section class="team">
-                <h2 class="title">
-                    EQUIPO
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ipsa voluptate nam dolore dolores aut distinctio odit harum, voluptas repellat id modi quibusdam ab delectus quidem sunt mollitia! Temporibus, repellat?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore numquam corporis blanditiis itaque aspernatur! Ex natus porro magnam consequatur dignissimos itaque, exercitationem debitis hic quidem, nam error tenetur beatae nulla?
-                </p>
-            </section>
-            <section class="fortalezas">
-                <h2 class="title">
-                    Título
-                </h2>
-                <p>
-                    Párrafo 1
-                </p>
-            </section>
-                <section class="debilidades">
-                    <h2 class="title">
-                        Título 2
-                    </h2>
-                    <p>
-                        Párrafo 2
-                    </p>
-                </section>
+      <section class="section-1">
+        <section class="team" id="team">
+          <h2 class="title">EQUIPO</h2>
+          <p class="parrafo-equipo">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ipsa
+            voluptate nam dolore dolores aut distinctio odit harum, voluptas
+            repellat id modi quibusdam ab delectus quidem sunt mollitia!
+            Temporibus, repellat?
+          </p>
+          <p class="parrafo-equipo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            numquam corporis blanditiis itaque aspernatur! Ex natus porro magnam
+            consequatur dignissimos itaque, exercitationem debitis hic quidem,
+            nam error tenetur beatae nulla?
+          </p>
         </section>
-        
+          <section class="info">
+            <section class="fortalezas">
+                <h2 class="title-2">
+                     Fortalezas
+                </h2>
+                <p class="parrafo">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni esse dolor velit eum blanditiis error sint aut? Consequatur, exercitationem nobis fugit assumenda doloribus quasi corrupti, eum quos, unde explicabo recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi culpa quia deleniti unde itaque cumque dignissimos expedita, doloremque reiciendis soluta natus, voluptates id harum, at similique deserunt? Rerum, minus quis.
+                </p>
+            </section>
+            <section class="debilidades">
+                <h2 class="title-2">
+                     Debilidades
+                </h2>
+                <p class="parrafo">
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni esse dolor velit eum blanditiis error sint aut? Consequatur, exercitationem nobis fugit assumenda doloribus quasi corrupti, eum quos, unde explicabo recusandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi culpa quia deleniti unde itaque cumque dignissimos expedita, doloremque reiciendis soluta natus, voluptates id harum, at similique deserunt? Rerum, minus quis.
+            </p>
+            </section>
+          </section>
+          <section class="quienes-somos" id="quienes-somos">
+            <h2 class="title">
+                QUIÉNES SOMOS
+            </h2>
+            <article class="compi1">
+                <img class="foto-compi1" src="" alt="foto compi 1" />
+                <h3 class="name-compi1">
+                    Elena Clemente
+                </h3>
+                <p class="text-compi1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus neque magnam quis rem voluptas
+                    laudantium explicabo, molestias tenetur eveniet iste modi laboriosam, accusamus dolore omnis
+                    voluptatem hic similique, libero vitae!
+                </p>
+                <ul>
+                    <li>
+                    <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                        LinkedIn
+                    </li>
+                    <li>
+                        GitHub
+                    </li>
+                    <li>
+                        Correo
+                    </li>
+                </ul>
+            </article>
+            <article class="compi2">
+                <img class="foto-compi2" src="" alt="foto compi 2" />
+                <h3 class="name-compi2">
+                    Rebeca Gómez
+                </h3>
+                <p class="text-compi2">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus neque magnam quis rem voluptas
+                    laudantium explicabo, molestias tenetur eveniet iste modi laboriosam, accusamus dolore omnis
+                    voluptatem hic similique, libero vitae!
+                </p>
+                <ul>
+                    <li>
+                        Twitter
+                    </li>
+                    <li>
+                        LinkedIn
+                    </li>
+                    <li>
+                        GitHub
+                    </li>
+                    <li>
+                        Correo
+                    </li>
+                </ul>
+            </article>
+            <article class="compi3">
+                <img class="foto-compi3" src="" alt="foto compi 3" />
+                <h3 class="name-compi3">
+                    Lucía Kestel
+                </h3>
+                <p class="text-compi3">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus neque magnam quis rem voluptas
+                    laudantium explicabo, molestias tenetur eveniet iste modi laboriosam, accusamus dolore omnis
+                    voluptatem hic similique, libero vitae!
+                </p>
+                <ul>
+                    <li>
+                        Twitter
+                    </li>
+                    <li>
+                        LinkedIn
+                    </li>
+                    <li>
+                        GitHub
+                    </li>
+                    <li>
+                        Correo
+                    </li>
+                </ul>
+            </article>
+            <article class="compi4">
+                <img class="foto-compi4" src="" alt="foto compi 4" />
+                <h3 class="name-compi4">
+                    Raquel Peña
+                </h3>
+                <p class="text-compi4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus neque magnam quis rem voluptas
+                    laudantium explicabo, molestias tenetur eveniet iste modi laboriosam, accusamus dolore omnis
+                    voluptatem hic similique, libero vitae!
+                </p>
+                <ul>
+                    <li>
+                        Twitter
+                    </li>
+                    <li>
+                        LinkedIn
+                    </li>
+                    <li>
+                        GitHub
+                    </li>
+                    <li>
+                        Correo
+                    </li>
+                </ul>
+            </article>
+            <article class="compi5">
+                <img class="foto-comp5" src="" alt="foto compi 5" />
+                <h3 class="name-compi5">
+                    Nayra Romero
+                </h3>
+                <p class="text-compi5">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus neque magnam quis rem voluptas
+                    laudantium explicabo, molestias tenetur eveniet iste modi laboriosam, accusamus dolore omnis
+                    voluptatem hic similique, libero vitae!
+                </p>
+                <ul>
+                    <li>
+                        Twitter
+                    </li>
+                    <li>
+                        LinkedIn
+                    </li>
+                    <li>
+                        GitHub
+                    </li>
+                    <li>
+                        Correo
+                    </li>
+                </ul>
+            </article>
+      </section>
     </main>
-</body>
+  </body>
+</html>
 
+<footer class="contenedor-footer">
+  <p class="footer-nombre">
+      Nombre del equipo 2018
+  </p>
+
+  <p class="footer-equipo">
+      EQUIPO QUIÉNES SOMOS CONTACTO
+  </p>
+
+<img class="footer-logo" src="./imagenes/logo-adalab.png" alt="Logo de Adalab">
+
+</footer>
 
 </html>
