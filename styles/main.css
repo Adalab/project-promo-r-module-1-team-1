@@ -28,21 +28,19 @@ background-color: turquoise;
 }
 
 .title {
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-size: 24px;
     font-weight: 500;
     color: #14d9c4;
     text-align: center;
 }
-.parrafo-equipo {
-    font-family: "OpenSans";
-    font-size: 16px;
-    font-weight: normal;
+.parrafo-equipo{
     color: #54585a;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
     text-align: center;
+    font-family:'Open Sans';
 }
 
 .info {
