@@ -123,29 +123,38 @@ line-height: 45px;
 }
 
 .contenedor-footer {
-width: 320px;
+    box-sizing: border-box;
+    width: 100%;
     height: 250px;
-    padding: 30px 74px 45px;
+    border: solid 2px #b8b8b9;
 }
 
 .footer-nombre {
-font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     text-align: center;
-    color: #b8b8b9;
+    color: #b8b8b9;  
+    margin-top: 30px; 
 }
 
 .footer-equipo {
-font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 16px;
-    color: #b8b8b9;
-    width: 114px;
-    height: 60px;
+    color: #54585a;
+    opacity: 0.75;
     text-align: center;
+    line-height: 10px;
+    margin-left: 20px;
+   
 }
 
 .footer-logo {
-    width: 115.9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
     height: 45px;
+    width: 115.9px;
+    margin-bottom: 45px;
+    margin-top: 30px;
 }
