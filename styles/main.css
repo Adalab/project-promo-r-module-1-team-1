@@ -2,159 +2,191 @@
     font-family: 'Open Sans';
     font-family: 'Rubik';
 */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-green: #099d8d;
+  --black: #000000;
+  --gunmetal: #54585a;
+}
+
 h1 {
-    text-align: center;
-    background-color: turquoise;
+  text-align: center;
+  background-color: turquoise;
 }
 
 .menu {
-background-color: turquoise;
-    padding: 5px;
+  background-color: turquoise;
+  padding: 5px;
 }
 
 .lista {
-    display: flex;
+  display: flex;
 }
 .hero {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .imagen {
-    width: 100%;
+  width: 100%;
 }
 .lema {
-    border: 3px;
+  border: 3px;
 }
 
 .title {
-    font-family: 'Rubik';
-    font-size: 24px;
-    font-weight: 500;
-    color: #14d9c4;
-    text-align: center;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 500;
+  color: #14d9c4;
+  text-align: center;
 }
-.parrafo-equipo{
-    color: #54585a;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family:'Open Sans';
+.parrafo-equipo {
+  color: #54585a;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Open Sans";
 }
 
 .info {
-background-color: rgba(184,184,185,0.2);
-    margin-top: 30px;
-    text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
+  background-color: rgba(184, 184, 185, 0.2);
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .fortalezas {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .debilidades {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .title-2 {
-font-size: 22px;
-    font-weight: 500;
-    color: #099d8d;
-font-family: "Rubik";
+  font-size: 22px;
+  font-weight: 500;
+  color: #099d8d;
+  font-family: "Rubik";
 }
 
 .parrafo {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #54585a;
-    font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #54585a;
+  font-family: "Open Sans";
 }
 
 .quienes-somos .title {
-font-family: "Rubik";
-    font-size: 24px;
-    font-weight: 500;
-    color: #099d8d;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
+  height: 45px;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  color: var(--blue-green);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-foto {
-    text-align: center;
+  width: 180px;
+  height: 180px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
 }
 
 .person .foto {
-    width: 100%;
-    border-radius: 4px;
-border: solid 5px rgba(0, 0, 0, 0.08);
+  width: 100%;
 }
 
 .person .name {
-    font-family: "Open Sans";
-    font-size: 20px;
-line-height: 45px;
-color: black;
-    text-align: center;
-line-height: 45px;
+  height: 45px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 45px;
+  color: var(--black);
+  text-align: center;
 }
 
 .person .text {
-    font-family: "Open Sans";
-    font-size: 16px;
-    line-height: 1.5;
-    color: #54585a;
-    text-align: center;
-    width: 100%;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--gunmetal);
+  text-align: center;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 15px;
 }
 
 .iconos {
-    display: flex;
-    list-style-type: none;
-    color: #099d8d;
-    font-size: 16px;
-    line-height: 1.88;
-    justify-content: center;
-    gap: 20px;
-    margin-left: -40px;
+  height: 30px;
+  display: flex;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 30px;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  gap: 10px;
+}
+
+.iconos .icono{
+    color: var(--blue-green);
+}
+
+.iconos .punto{
+    font-family: "Open Sans";
+    color: var(--gunmetal)
 }
 
 .contenedor-footer {
-    box-sizing: border-box;
-    width: 100%;
-    height: 250px;
-    border: solid 2px #b8b8b9;
+  box-sizing: border-box;
+  width: 100%;
+  height: 250px;
+  border: solid 2px #b8b8b9;
 }
 
 .footer-nombre {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    text-align: center;
-    color: #b8b8b9;  
-    margin-top: 30px; 
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #b8b8b9;
+  margin-top: 30px;
 }
 
 .footer-equipo {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #54585a;
-    opacity: 0.75;
-    text-align: center;
-    line-height: 10px;
-    margin-left: 20px;
-   
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #54585a;
+  opacity: 0.75;
+  text-align: center;
+  line-height: 10px;
+  margin-left: 20px;
 }
 
 .footer-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    height: 45px;
-    width: 115.9px;
-    margin-bottom: 45px;
-    margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45px;
+  width: 115.9px;
+  margin-bottom: 45px;
+  margin-top: 30px;
 }
