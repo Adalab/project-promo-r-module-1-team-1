@@ -173,12 +173,13 @@ h1 {
 .footer-equipo {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  color: #54585a;
+  font-size: 14px;
+  color: var(--gunmetal);
   opacity: 0.75;
   text-align: center;
-  line-height: 10px;
+  line-height: 20px;
   margin-left: 20px;
+  padding: 20px 29px 29px;
 }
 
 .footer-logo {
@@ -187,6 +188,6 @@ h1 {
   margin-right: auto;
   height: 45px;
   width: 115.9px;
-  margin-bottom: 45px;
-  margin-top: 30px;
-}
+  margin-bottom: 65px;
+  margin-top: 10px;
+  }
