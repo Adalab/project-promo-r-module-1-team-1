@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    background-color: turquoise;
+}
+
+.menu {
+    background-color: turquoise;
+    padding: 5px;
+    
+
+}
+
+.lista{
+    display: flex;
+    
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen{
+    width: 100%;
+
+}
+.lema{
+    border: 3px;
+    
+}
