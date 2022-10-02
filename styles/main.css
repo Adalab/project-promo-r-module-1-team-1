@@ -102,15 +102,16 @@ h1 {
 }
 
 .container-foto {
-  width: 180px;
-  height: 180px;
+  width: 190px;
+  height: 190px;
   margin-bottom: 15px;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
 
 .person .foto {
-  width: 100%;
+  width: 180px;
+  height: 180px;
 }
 
 .person .name {
