@@ -54,10 +54,15 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
 }
-
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  transform: translateY(-50%) rotate(45deg);
+  margin: 0 auto;
+}
 .info {
   background-color: rgba(184, 184, 185, 0.2);
-  margin-top: 30px;
   text-align: center;
   margin-left: 15px;
   margin-right: 15px;
@@ -65,10 +70,14 @@ h1 {
 
 .fortalezas {
   margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .debilidades {
   margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .title-2 {
@@ -76,6 +85,7 @@ h1 {
   font-weight: 500;
   color: #099d8d;
   font-family: "Rubik";
+  margin-bottom: 15px;
 }
 
 .parrafo {
