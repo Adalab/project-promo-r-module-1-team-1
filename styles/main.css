@@ -64,17 +64,16 @@ h1 {
 .info {
   background-color: rgba(184, 184, 185, 0.2);
   text-align: center;
-  height: 75vh;
 }
 
 .fortalezas {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
 .debilidades {
-  margin-top: 30px;
+   margin-top: 30px;
   margin-left: 15px;
   margin-right: 15px;
 
