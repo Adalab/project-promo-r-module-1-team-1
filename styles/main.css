@@ -105,6 +105,7 @@ h1 {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .person {
@@ -124,6 +125,7 @@ h1 {
 .person .foto {
   width: 180px;
   height: 180px;
+  object-fit: cover;
 }
 
 .person .name {
@@ -159,13 +161,19 @@ h1 {
   gap: 10px;
 }
 
-.iconos .icono{
-    color: var(--blue-green);
+.iconos .icono {
+  color: var(--blue-green);
 }
 
-.iconos .punto{
-    font-family: "Open Sans";
-    color: var(--gunmetal)
+.icono:after {
+  content: "·";
+  color: var(--gunmetal);
+  font-size: "Open Sans";
+}
+
+.icono:last-child:after {
+  content: " ";
+  color: var(--black);
 }
 
 .contenedor-footer {
@@ -203,4 +211,4 @@ h1 {
   width: 115.9px;
   margin-bottom: 65px;
   margin-top: 10px;
-  }
+}
