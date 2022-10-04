@@ -10,58 +10,71 @@
   --blue-green: #099d8d;
   --black: #000000;
   --gunmetal: #54585a;
+  --aqua: #14d9c4;
 }
 
+.header {
+  background-color: rgba(9 ,157 , 141, 0.4);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
 h1 {
   font-family: 'Rubik';
   text-align: center;
-  background-color: turquoise;
+  background-color: var(--blue-green);
   padding: 25px;
   color: white;
   font-size: 20px;
+  text-transform: uppercase;
 }
-
 .menu {
-  position: sticky;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: none;
-  padding: 10px;
-  background-color: turquoise;
-  font-family: Rubik;
+  background-color: rgba(20, 217, 196, 0.5);
+  font-family: 'Rubik';
+  padding: 20px;
 }
 
+.hero {
+  background-image: url(../imagenes/hero.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 421px;
+}
 .lista {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.lista-elemento {
+  font-size: 15px;
   text-decoration: none;
   color: white;
-  gap: 20%;
-  transform: translateX(-8px);
-  text-style: none;
 }
-.imagen-lema {
-  display: flex;
-  flex-direction: column;
-  transform: translateY(-12px);
-}
+
 .imagen {
   width: 100%;
 }
 .lema {
   width: 80%;
-  margin-left: 30px;
-  font-family: Rubik;
-  color: black;
+  margin: 0 auto;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 30px;
   background-color: white;
-  transform: translateY(-28px);
+  transform: translateY(-50%);
+}
+.lema-p {
+  font-family: 'Rubik';
+  color: black;
 }
 .main {
   transform: translateY(-33px);
 }
+
 
 .title {
   font-family: "Rubik";
@@ -69,6 +82,8 @@ h1 {
   font-weight: 500;
   color: #14d9c4;
   text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
 }
 .parrafo-equipo {
   color: #54585a;
