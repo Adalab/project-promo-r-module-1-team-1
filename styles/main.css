@@ -12,6 +12,15 @@
   --gunmetal: #54585a;
 }
 
+h1 {
+  font-family: 'Rubik';
+  text-align: center;
+  background-color: turquoise;
+  padding: 25px;
+  color: white;
+  font-size: 20px;
+}
+
 .menu {
   position: sticky;
   display: flex;
