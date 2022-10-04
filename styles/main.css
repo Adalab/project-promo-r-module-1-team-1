@@ -224,7 +224,7 @@ h1 {
   box-sizing: border-box;
   width: 100%;
   height: 250px;
-  border: solid 2px #b8b8b9;
+  border-top: solid 2px #b8b8b9;
 }
 
 .footer-nombre {
@@ -241,10 +241,15 @@ h1 {
   font-size: 14px;
   color: var(--gunmetal);
   opacity: 0.75;
+  text-transform: uppercase;
   text-align: center;
   line-height: 20px;
   margin-left: 20px;
-  padding: 20px 29px 29px;
+  padding: 20px 29px 30px 29px;
+}
+.li-footer {
+  text-decoration: none;
+  color: var(--gunmetal);
 }
 
 .footer-logo {
