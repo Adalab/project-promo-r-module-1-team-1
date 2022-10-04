@@ -12,29 +12,46 @@
   --gunmetal: #54585a;
 }
 
-h1 {
-  text-align: center;
-  background-color: turquoise;
-}
-
 .menu {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: none;
+  padding: 10px;
   background-color: turquoise;
-  padding: 5px;
+  font-family: Rubik;
 }
 
 .lista {
   display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  gap: 20%;
+  transform: translateX(-8px);
+  text-style: none;
 }
-.hero {
+.imagen-lema {
   display: flex;
   flex-direction: column;
+  transform: translateY(-12px);
 }
-
 .imagen {
   width: 100%;
 }
 .lema {
-  border: 3px;
+  width: 80%;
+  margin-left: 30px;
+  font-family: Rubik;
+  color: black;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: white;
+  transform: translateY(-28px);
+}
+.main {
+  transform: translateY(-33px);
 }
 
 .title {
@@ -73,7 +90,7 @@ h1 {
 }
 
 .debilidades {
-   margin-top: 30px;
+  margin-top: 30px;
   margin-left: 15px;
   margin-right: 15px;
 
