@@ -51,15 +51,15 @@
   }
   
   .hero {
-    background: url(../images/hero-contactos.jpg);
-    background-position:center;
+    background: url(../images/contacto.jpg);
+    background-position: top;
     background-repeat: no-repeat;
     width: 100%;
     height: 320px;
   }
 
   .foto-hero{
-    background-size: cover;
+    background-size:contain;
   }
 
   .lista {
