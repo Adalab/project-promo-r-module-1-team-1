@@ -113,13 +113,14 @@
     width: 30px;
     height: 30px;
     background-color: white;
-    transform: translateY(-50%) rotate(45deg);
+    transform: translateY(50%) rotate(45deg);
     margin: 0 auto;
   }
   .info {
     background-color: rgba(184, 184, 185, 0.2);
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 30px;
   }
   
   .fortalezas {
@@ -307,11 +308,6 @@
     }
     .debilidades {
       width: 50%;
-    }
-    .box {
-      position: absolute;
-      top: 100;
-      background-color: #000000;
     }
     .rigth {
       align-items: flex-end;
