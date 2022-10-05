@@ -15,16 +15,9 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header class="header">
-        <h1>Women in tech</h1>
-        <nav class="menu">
-            <ul class="lista">
-                <li><a ref="equipo" href="" class="lista-elemento">Equipo</a></li>
-                <li><a ref="quiénes somos" href="" class="lista-elemento">Quiénes somos</a></li>
-                <li><a ref="contacto" href="./contacto.html" class="lista-elemento">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    
+    <include src="../partials/_header.html"></include>
+
     <main>
         <section class="hero">
             <img class="foto-hero">
@@ -32,7 +25,7 @@
         <section class="contacto">
             <h2 class="title">Contacto</h2>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc rutrum ullamcorper mauris, vel convallis metus eleifend in.</p>
-            <small class="small">Todos los campos marcados con </small><small class="small">son obligatorios.</small>
+            <small class="small">Todos los campos marcados con "<span class="asterisco">*</span>" son obligatorios.</small>
         </section>
         <form class="formulario" action="/signup" method="post">
             <label class="star" for="fullName">Nombre completo</label>
@@ -44,7 +37,7 @@
             <label class="star" for="comments">Mensaje</label>
             <textarea id="comments" placeholder="¿Qué necesitas?" name="Mensaje" rows="8" cols="80"></textarea>
             <input class="enviar" type="submit" value="Enviar" />
-          </form>
+        </form>
     </main>
     <footer class="contenedor-footer">
         <p class="footer-nombre">Women in tech &copy;2022</p>
@@ -55,7 +48,7 @@
                 <li>Contacto</li>
             </ul>
         </div>
-      <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
-      </footer>
+        <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
+    </footer>
 </body>
 </html>

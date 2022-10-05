@@ -35,92 +35,79 @@
     top: 0;
     width: 100%;
     z-index: 2;
-  }
-  h1 {
-    font-family: 'Rubik';
-    text-align: center;
-    padding: 25px;
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-  .menu {
-    background-color: rgba(20, 217, 196, 0.5);
-    font-family: 'Rubik';
-    padding: 20px;
-  }
-  
-  .hero {
-    background: url(../images/contact-us.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    height: 320px;
-  }
-  .lista {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-    width: 100%;
-  }
-  .lista-elemento {
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
+    h1 {
+      font-family: 'Rubik';
+      text-align: center;
+      padding: 25px;
+      color: white;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    .menu {
+      background-color: rgba(20, 217, 196, 0.5);
+      font-family: 'Rubik';
+      padding: 20px;
+      .lista {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        width: 100%;
+        .lista-elemento {
+          font-size: 15px;
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
   }
   
+  main {
+    .hero {
+      background: url(../images/contact-us.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      width: 100%;
+      height: 320px;
+    }
+  }
 
   .contacto{
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 58px;
     text-align: center;
-  }
-
-  .contacto .title {
-    font-family: "Rubik";
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--blue-green);
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 30px;
-  }
-  .contacto .text {
-    color: var(--gunmetal);
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: "Open Sans";
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  .contacto .small {
-    color: var(--gunmetal);
-    text-align: center;
-    font-family: "Open Sans";
-    font-size: 12px;
-    line-height: 1.5;
-  }
-
-  .small:after {
-    content: "*";
-    font-size: 12px;
-    color: var(--aqua);
-    font-size: "Open Sans";
-  }
-
-  .small:last-child:after {
-    content: " ";
-  }
-
-  input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: solid 1px #b8b8b9;
+    .title {
+      font-family: "Rubik";
+      font-size: 24px;
+      font-weight: 500;
+      color: var(--blue-green);
+      text-align: center;
+      text-transform: uppercase;
+      padding: 30px 0 15px;
+      letter-spacing: 0.5px;
+    }
+    .text {
+      color: var(--gunmetal);
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: "Open Sans";
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .small {
+      color: var(--gunmetal);
+      text-align: center;
+      font-family: "Open Sans";
+      font-size: 12px;
+      line-height: 1.5;
+      .asterisco  {
+        font-size: 12px;
+        color: var(--aqua);
+        font-size: "Open Sans";
+      }
+    }
   }
 
   .formulario{
@@ -130,88 +117,87 @@
     font-family: "Open Sans";
     margin-left: 15px;
     margin-right: 15px;
+    .star:after {
+      content: " *";
+      font-size: 12px;
+      color: var(--aqua);
+      font-size: "Open Sans";
+    } 
+    label{
+      color: var(--gunmetal);
+      margin-bottom: 7px;
+      margin-top: 7px;
+    }
+    input {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: solid 1px #b8b8b9;
+      padding: 10px;
+    }
+    .enviar{
+      background-color: var(--blue-green);
+      color: white;
+      text-transform: uppercase;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-weight: 600;
+      padding-top: 11px;
+      padding-bottom: 12px;
+      margin-top: 30px;
+      margin-bottom: 60px;
+    }
   }
-
-  .formulario label{
-    color: var(--gunmetal);
-    margin-bottom: 7px;
-    margin-top: 7px;
-  }
-
-  .formulario .star:after {
-    content: " *";
-    font-size: 12px;
-    color: var(--aqua);
-    font-size: "Open Sans";
-  } 
-
-  .enviar{
-    background-color: var(--blue-green);
-    color: white;
-    text-transform: uppercase;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 11px;
-    padding-bottom: 12px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-  }
-
   
   .contenedor-footer {
     box-sizing: border-box;
     width: 100%;
     height: 250px;
     border-top: solid 2px #b8b8b9;
-  }
-  
-  .footer-nombre {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    text-align: center;
-    color: #b8b8b9;
-    margin-top: 30px;
-  }
-  
-  .footer-equipo {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--gunmetal);
-    opacity: 0.75;
-    line-height: 1.43;
-    text-align: center;
-    padding: 20px 29px 30px;
-    text-transform: uppercase;
-  }
-  
-  .footer-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 45px;
-    width: 115.9px;
-    margin-bottom: 45px;
+    .footer-nombre {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      text-align: center;
+      color: #b8b8b9;
+      margin-top: 30px;
+    }
+    .footer-equipo {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--gunmetal);
+      opacity: 0.75;
+      line-height: 1.43;
+      text-align: center;
+      padding: 20px 29px 30px;
+      text-transform: uppercase;
+    }
+    .footer-logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 45px;
+      width: 115.9px;
+      margin-bottom: 45px;
+    }
   }
 
   @media screen and (min-width:768px) {
-
     .header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       position: static;
       background-color: var(--blue-green);
-    }
-    h1{
-      padding: 15px 0px 15px 45px;
-    }
-    .menu {
-      background-color: var(--blue-green);
-    }
-    .lista-elemento {
-      padding: 19px;
-      text-align: center;
+      h1{
+        padding: 15px 0px 15px 45px;
+      }
+      .menu {
+        background-color: var(--blue-green);
+        .lista-elemento {
+          padding: 19px;
+          text-align: center;
+        }
+      }
     }
   }
