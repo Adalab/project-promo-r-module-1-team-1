@@ -70,6 +70,7 @@
     text-decoration: none;
     color: white;
   }
+  
 
   .contacto{
     margin-left: 15px;
@@ -86,7 +87,6 @@
     text-align: center;
     text-transform: uppercase;
     padding-top: 30px;
-    padding-bottom: 15px;
   }
   .contacto .text {
     color: var(--gunmetal);
@@ -193,4 +193,25 @@
     height: 45px;
     width: 115.9px;
     margin-bottom: 45px;
+  }
+
+  @media screen and (min-width:768px) {
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: static;
+      background-color: var(--blue-green);
+    }
+    h1{
+      padding: 15px 0px 15px 45px;
+    }
+    .menu {
+      background-color: var(--blue-green);
+    }
+    .lista-elemento {
+      padding: 19px;
+      text-align: center;
+    }
   }
