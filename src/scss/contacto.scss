@@ -1,5 +1,6 @@
-/*@import 'core/variables';
+
 @import 'core/reset';
+/*@import 'core/variables';
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
@@ -7,53 +8,6 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
-
-/* HOJA DE RESET:
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 
 /*HOJA DE STYLES: */
@@ -208,128 +162,7 @@ table {
     margin-bottom: 60px;
   }
 
-  /*.box {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    transform: translateY(-50%) rotate(45deg);
-    margin: 0 auto;
-  }
-  .info {
-    background-color: rgba(184, 184, 185, 0.2);
-    text-align: center;
-    padding-bottom: 30px;
-  }
   
-  .fortalezas {
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  
-  .debilidades {
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  
-  .title-2 {
-    font-size: 22px;
-    font-weight: 500;
-    color: #099d8d;
-    font-family: "Rubik";
-    margin-bottom: 15px;
-  }
-  
-  .parrafo {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #54585a;
-    font-family: "Open Sans";
-    
-  }
-  
-  .quienes-somos .title {
-    height: 45px;
-    font-family: "Rubik";
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 45px;
-    color: var(--blue-green);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .person {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .container-foto {
-    width: 190px;
-    height: 190px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    border: solid 5px rgba(0, 0, 0, 0.08);
-  }
-  
-  .person .foto {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-  }
-  
-  .person .name {
-    height: 45px;
-    font-family: "Open Sans";
-    font-size: 20px;
-    line-height: 45px;
-    color: var(--black);
-    text-align: center;
-  }
-  
-  .person .text {
-    font-family: "Open Sans";
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--gunmetal);
-    text-align: center;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 15px;
-  }
-  
-  .iconos {
-    height: 30px;
-    display: flex;
-    list-style-type: none;
-    font-size: 16px;
-    line-height: 30px;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 45px;
-    gap: 10px;
-  }
-  
-  .iconos .icono {
-    color: var(--blue-green);
-  }
-  
-  .icono:after {
-    content: "·";
-    color: var(--gunmetal);
-    font-size: "Open Sans";
-  }
-  
-  .icono:last-child:after {
-    content: " ";
-    color: var(--black);
-  }
-  */
   .contenedor-footer {
     box-sizing: border-box;
     width: 100%;
