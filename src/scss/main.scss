@@ -82,8 +82,9 @@
     transform: translateY(-50%);
   }
   .lema-p {
-    font-family: 'Rubik';
+    font-family: 'Open Sans';
     color: black;
+    font-weight: 700;
   }
   .main {
     transform: translateY(-33px);
@@ -142,6 +143,7 @@
     color: #099d8d;
     font-family: "Rubik";
     margin-bottom: 15px;
+   
   }
   
   .parrafo {
@@ -305,7 +307,13 @@
       transform: translate(-40%, -100%);
       opacity: 0.8;
     }
+    .parrafo-equipo{
+      padding-left: 45px;
+      padding-right: 45px;
+    }
     .info {
+      padding-left: 45px;
+      padding-right: 45px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -317,8 +325,7 @@
       width: 50%;
     }
     .title {
-      margin-top: 45px;
-      margin-bottom: 41px;
+      padding-bottom: 15px;
     }
     .person {
       display: flex;
