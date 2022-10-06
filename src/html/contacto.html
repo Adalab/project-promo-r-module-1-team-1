@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,15 +8,16 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./assets/css/contacto.css" class="css" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Contacto</title>
 </head>
+
 <body>
-    
+
     <include src="../partials/_header.html"></include>
 
     <main>
@@ -24,31 +26,38 @@
         </section>
         <section class="contacto">
             <h2 class="title">Contacto</h2>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc rutrum ullamcorper mauris, vel convallis metus eleifend in.</p>
-            <small class="small">Todos los campos marcados con "<span class="asterisco">*</span>" son obligatorios.</small>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc rutrum ullamcorper mauris,
+                vel convallis metus eleifend in.</p>
+            <small class="small">Todos los campos marcados con <span class="asterisco">*</span> son
+                obligatorios.</small>
         </section>
         <form class="formulario" action="/signup" method="post">
             <label class="star" for="fullName">Nombre completo</label>
             <input placeholder="Nombre..." type="text" id="fullName" name="fullName" />
-            <label class="star" for="emailAddress">Email</label>
-            <input placeholder="nombre.apellidos@mail.com" type="email" id="emailAddress" name="emailAddress" />
-            <label for="telephone">Teléfono</label>
-            <input placeholder="Ej:123456789" type="tel" id="telephone" name="telephone" />
+            <div class="flex">
+                <label class="star" for="emailAddress">Email</label>
+                <input placeholder="nombre.apellidos@mail.com" type="email" id="emailAddress" name="emailAddress" />
+                <label for="telephone">Teléfono</label>
+                <input placeholder="Ej:123456789" type="tel" id="telephone" name="telephone" />
+            </div>
             <label class="star" for="comments">Mensaje</label>
             <textarea id="comments" placeholder="¿Qué necesitas?" name="Mensaje" rows="8" cols="80"></textarea>
             <input class="enviar" type="submit" value="Enviar" />
         </form>
     </main>
-    <footer class="contenedor-footer">
-        <p class="footer-nombre">Women in tech &copy;2022</p>
-        <div class="footer-equipo">
-            <ul>
-                <li>Equipo</li>
-                <li>Quiénes somos</li>
-                <li>Contacto</li>
+    <footer class="footer">
+        <p class="footer-nombre">
+            Women in Tech &copy;2022
+        </p>
+        <nav class="container-lista">
+            <ul class="footer-lista">
+                <li> <a href="#team">Equipo</a> </li>
+                <li> <a href="#quienes-somos">Quiénes somos</a> </li>
+                <li> <a href="">Contacto</a> </li>
             </ul>
-        </div>
+        </nav>
         <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
     </footer>
 </body>
+
 </html>
