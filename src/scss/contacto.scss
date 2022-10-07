@@ -147,6 +147,12 @@
       margin-bottom: 7px;
       margin-top: 7px;
     }
+
+    .flex{
+      display: flex;
+      flex-direction: column;
+    }
+
     input {
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -246,8 +252,9 @@
       margin-left: 163px;
       margin-right: 163px;
       margin-top: 58px;
-      &flex{
-        flex-direction: column;
+      .flex{
+        flex-direction: row;
+        padding-top: 20px;
       }
       .enviar{
         width: 50%;
