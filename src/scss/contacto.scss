@@ -246,6 +246,9 @@
       margin-left: 163px;
       margin-right: 163px;
       margin-top: 58px;
+      &flex{
+        flex-direction: column;
+      }
       .enviar{
         width: 50%;
         align-self: flex-end;
