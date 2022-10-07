@@ -405,6 +405,7 @@
     .container-lista{
       display: flex;
       justify-content: flex-end;
+      margin-right: 45px;
     }
   }
 
@@ -473,5 +474,8 @@
    }
    .footer-logo, .footer-nombre {
     margin-left: 150px;
+   }
+   .container-lista{
+    margin-right: 150px;
    }
   }
