@@ -1,6 +1,6 @@
 @import 'core/reset';
-/*@import 'core/variables';
-@import 'components/code';
+@import 'core/variables';
+/*@import 'components/code';
 @import 'components/links';
 @import 'layout/page';
 @import 'layout/header';
@@ -9,23 +9,8 @@
 */
 
 
-/*HOJA DE STYLES: */
-
-/*
-    font-family: 'Open Sans';
-    font-family: 'Rubik';
+/*HOJA DE STYLES: 
 */
-* {
-    box-sizing: border-box;
-  }
-  
-  :root {
-    --blue-green: #099d8d;
-    --black: #000000;
-    --gunmetal: #54585a;
-    --aqua: #14d9c4;
-  }
-  
   .header {
     background-color: rgba(9 ,157 , 141, 0.4);
     opacity: 0.95;
@@ -35,7 +20,7 @@
     z-index: 2;
   }
   h1 {
-    font-family: 'Rubik';
+    font-family: var(--title-font);
     text-align: center;
     background-color: var(--blue-green);
     padding: 25px;
@@ -45,7 +30,7 @@
   }
   .menu {
     background-color: rgba(20, 217, 196, 0.8);
-    font-family: 'Rubik';
+    font-family: var(--title-font);
     padding: 15px;
   }
   
@@ -82,7 +67,7 @@
     transform: translateY(-50%);
   }
   .lema-p {
-    font-family: 'Open Sans';
+    font-family:var(--text-font);
     color: black;
     font-weight: 700;
   }
@@ -92,7 +77,7 @@
   
   
   .title {
-    font-family: "Rubik";
+    font-family: var(--title-font);
     font-size: 24px;
     font-weight: 500;
     color: #14d9c4;
@@ -106,7 +91,7 @@
     margin-right: 15px;
     margin-bottom: 30px;
     text-align: center;
-    font-family: "Open Sans";
+    font-family: var(--text-font);
     font-size: 16px;
     line-height: 1.5;
   }
@@ -141,7 +126,7 @@
     font-size: 22px;
     font-weight: 500;
     color: #099d8d;
-    font-family: "Rubik";
+    font-family: var(--title-font);
     margin-bottom: 15px;
    
   }
@@ -150,7 +135,7 @@
     font-size: 16px;
     line-height: 1.5;
     color: #54585a;
-    font-family: "Open Sans";
+    font-family: var(--text-font);
     
   }
   
@@ -189,7 +174,7 @@
 
   .name, .name-rigth {
     height: 45px;
-    font-family: "Open Sans";
+    font-family: var(--text-font);
     font-size: 20px;
     line-height: 45px;
     color: var(--black);
@@ -197,7 +182,7 @@
   }
   
   .text, .text-rigth {
-    font-family: "Open Sans";
+    font-family: var(--text-font);
     font-size: 16px;
     line-height: 24px;
     color: var(--gunmetal);
@@ -214,7 +199,7 @@
   .iconos a:after, .iconos-rigth a:after {
   color: black;
   content: " ·";
-  font-size: "Open Sans";
+  font-size: var(--text-font);
 }
   .iconos, .iconos-rigth {
     height: 30px;
@@ -247,7 +232,7 @@
   }
   
   .footer-nombre {
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--text-font);
     font-size: 14px;
     text-align: center;
     color: #b8b8b9;
@@ -255,7 +240,7 @@
   }
   
   .footer-lista {
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--text-font);
     font-weight: 600;
     font-size: 14px;
     color: var(--gunmetal);
