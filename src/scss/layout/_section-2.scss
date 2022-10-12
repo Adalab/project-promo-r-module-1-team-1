@@ -1,0 +1,42 @@
+.section-2 {
+  background-color: rgba(184, 184, 185, 0.2);
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  &__strengths {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    &__title {
+      font-size: 22px;
+      font-weight: 500;
+      color: #099d8d;
+      font-family: var(--title-font);
+      margin-bottom: 15px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #54585a;
+      font-family: var(--text-font);
+    }
+  }
+  &__weaknesses{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    &__title {
+      font-size: 22px;
+      font-weight: 500;
+      color: #099d8d;
+      font-family: var(--title-font);
+      margin-bottom: 15px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #54585a;
+      font-family: var(--text-font);
+    }
+  }
+}
