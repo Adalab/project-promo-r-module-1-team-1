@@ -1,5 +1,12 @@
 .section-1 {
-    &__title{
+  padding: 0px 15px;
+  @media all and (min-width: 768px) {
+    padding: 45px 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0px 300px 0px 299px;
+  }
+  &__title {
     font-family: var(--title-font);
     font-size: 24px;
     font-weight: 500;
@@ -7,15 +14,18 @@
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 30px;
+    @media all and (min-width: 1200px) {
+      margin-top: 0px;
+      margin-bottom: 15px;
+      padding-bottom: 0px;
     }
-    &__text{
+  }
+  &__text {
     color: #54585a;
-    margin-left: 15px;
-    margin-right: 15px;
     margin-bottom: 30px;
     text-align: center;
     font-family: var(--text-font);
     font-size: 16px;
     line-height: 1.5;
-    }
   }
+}

@@ -5,6 +5,14 @@
   top: 0;
   width: 100%;
   z-index: 2;
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: var(--blue-green);
+  }
   &__h1 {
     font-family: var(--title-font);
     text-align: center;
@@ -13,21 +21,36 @@
     color: white;
     font-size: 20px;
     text-transform: uppercase;
+    @media all and (min-width: 1200px) {
+      margin-left: 142px;
+      padding-left: 0px;
+    }
   }
   &__nav {
     background-color: rgba(20, 217, 196, 0.8);
     font-family: var(--title-font);
     padding: 15px;
+    @media all and (min-width: 768px) {
+      background-color: var(--blue-green);
+    }
+    @media all and (min-width: 1200px) {
+      padding-right: 138px;
+    }
     .list {
       display: flex;
       justify-content: space-between;
       align-items: center;
       text-transform: uppercase;
       width: 100%;
+
       &__element {
         font-size: 15px;
         text-decoration: none;
         color: white;
+        @media all and (min-width: 768px) {
+          padding: 20px;
+          text-align: center;
+        }
       }
     }
   }

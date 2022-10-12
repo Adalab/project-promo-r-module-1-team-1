@@ -3,10 +3,22 @@
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
+  @media all and (min-width: 768px) {
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   &__strengths {
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    @media all and (min-width: 1200px){
+    margin-left: 138px;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    }
     &__title {
       font-size: 22px;
       font-weight: 500;
@@ -25,6 +37,11 @@
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
+    @media all and (min-width: 1200px){
+      margin-left: 138px;
+      padding-top: 45px;
+      padding-bottom: 60px;
+      }
     &__title {
       font-size: 22px;
       font-weight: 500;

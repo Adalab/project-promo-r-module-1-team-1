@@ -1,341 +1,143 @@
-@import 'core/reset';
-@import 'core/variables';
-/*@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-*/
-@import 'layout/header';
-@import 'layout/section-1';
-@import 'layout/section-2';
-@import 'layout/section-3';
-@import 'layout/article';
-/*
-@import 'layout/footer';
-@import 'pages/index';
-*/
-  .hero {
-    background-image: url(../images/hero.jpg);
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 421px;
-  }
-  .lema {
-    width: 80%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 30px;
-    background-color: white;
-    transform: translateY(-50%);
-  }
-  .lema-p {
-    font-family:var(--text-font);
-    color: black;
-    font-weight: 700;
-  }
-  .box {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    transform: translateY(50%) rotate(45deg);
-    margin: 0 auto;
-  }
-
-
-  
-  
-/*
-  .name, .name-rigth {
-    height: 45px;
-    font-family: var(--text-font);
-    font-size: 20px;
-    line-height: 45px;
-    color: var(--black);
-    text-align: center;
-  }
-  
-  .text, .text-rigth {
-    font-family: var(--text-font);
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--gunmetal);
-    text-align: center;
-    // width: 100%;
-    // padding-left: 30px;
-    // padding-right: 30px;
-    margin-bottom: 15px;
-  }
- 
-  a {
-    text-decoration: none;
-  }
-  .icons a:after, .iconos-rigth a:after {
-  color: black;
-  content: " ·";
-  font-size: var(--text-font);
+@import "core/reset";
+@import "core/variables";
+@import "layout/header";
+@import "layout/section-1";
+@import "layout/section-2";
+@import "layout/section-3";
+@import "layout/article";
+@import "layout/footer";
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 421px;
 }
-  .iconos, .iconos-rigth {
-    height: 30px;
+.lema {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: white;
+  transform: translateY(-50%);
+}
+.lema-p {
+  font-family: var(--text-font);
+  color: black;
+  font-weight: 700;
+}
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  transform: translateY(50%) rotate(45deg);
+  margin: 0 auto;
+}
+
+@media all and (min-width: 768px) {
+ 
+  .lema {
+    padding: 15px 30px;
+    width: max-content;
+    transform: translate(-40%, -100%);
+    opacity: 0.8;
+  }
+
+  .title {
+    padding-bottom: 15px;
+  }
+  .person {
     display: flex;
-    list-style-type: none;
-    font-size: 16px;
-    line-height: 30px;
-    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 67px;
+    padding-left: 45px;
+    padding-right: 45px;
+    align-content: flex-start;
+  }
+  .container-foto {
+    width: 213px;
+    height: 213px;
+  }
+  .info-rigth,
+  .name-rigth,
+  .text-rigth {
+    text-align: end;
+    width: 60vw;
+    margin-left: 15px;
+    padding-right: 44px;
+    margin-right: 0;
+  }
+  .iconos {
+    justify-content: flex-start;
+    margin-left: 15px;
+  }
+  .iconos-rigth {
+    justify-content: flex-end;
+    margin-left: 15px;
+  }
+  .info-person,
+  .name,
+  .text {
+    width: 60vw;
+    text-align: start;
+    margin-left: 15px;
+    padding-right: 44px;
+    margin-right: 0;
+  }
+
+  .name {
+    margin-top: 20px;
+  }
+  .iconos {
     margin-top: 15px;
-    margin-bottom: 45px;
-    gap: 10px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .lema {
+    font-size: 24px;
+    color: var(--black);
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
   }
  
-  .iconos .icono, .iconos-rigth .icono {
-    color: var(--blue-green);
-  }
-  
-  .iconos a:last-child:after, .iconos-rigth a:last-child:after {
-    content: " ";
-    color: var(--black);
-  }
-  
-  */
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 250px;
-    border-top: solid 1px #b8b8b9;
-  }
-  
-  .footer-nombre {
-    font-family: var(--text-font);
-    font-size: 14px;
-    text-align: center;
-    color: #b8b8b9;
-    margin-top: 30px;
-  }
-  
-  .footer-lista {
-    font-family: var(--text-font);
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--gunmetal);
-    opacity: 0.75;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 20px;
-    margin-left: 20px;
-    padding: 20px 29px 30px 29px;
-    box-sizing: border-box;
-  }
-  .footer-lista a {
-    text-decoration: none;
-    color: var(--gunmetal);
-  }
-  
-  .footer-logo {
-    margin-left: auto;
-    margin-right: auto;
-    height: 45px;
-    width: 115.9px;
-    margin-bottom: 65px;
-    margin-top: 10px;
-  }
+  /*seccion 3 elena */
 
-  @media all and (min-width: 768px) {
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      background-color: var(--blue-green);
-    }
-    .menu {
-      background-color: var(--blue-green);
-    }
-    .lista-elemento {
-      padding: 20px;
-      text-align: center;
-    }
-    .lema {
-      padding: 15px 30px;
-      width: max-content;
-      transform: translate(-40%, -100%);
-      opacity: 0.8;
-    }
-    .parrafo-equipo{
-      padding-left: 45px;
-      padding-right: 45px;
-    }
-    .info {
-      padding-left: 45px;
-      padding-right: 45px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .fortalezas {
-      width: 50%;
-    }
-    .debilidades {
-      width: 50%;
-    }
-    .title {
-      padding-bottom: 15px;
-    }
-    .person {
-      display: flex;
-      flex-direction: row;
-      padding-bottom: 67px;
-      padding-left: 45px;
-      padding-right: 45px;
-      align-content: flex-start;
-      
-    }
-    .container-foto {
-      width: 213px;
-      height: 213px;
-    }
-    .info-rigth, .name-rigth, .text-rigth{
-      text-align: end;
-      width: 60vw;
-      margin-left: 15px;
-      padding-right: 44px;
-      margin-right: 0;
-    }
-    .iconos {
-      justify-content: flex-start;
-      margin-left: 15px;
-    }
-    .iconos-rigth {
-      justify-content: flex-end;
-      margin-left: 15px;
-    }
-    .info-person, .name, .text {
-      width: 60vw;
-      text-align: start;
-      margin-left: 15px;
-      padding-right: 44px;
-      margin-right: 0;
-    }
-
-    .name {
-      margin-top: 20px;
-    }
-    .iconos {
-      margin-top: 15px;
-    }
-    
-
-    // .iconos {
-    //   justify-content: flex-start;
-    //   margin-left: 15px;
-    // }
-
-    .rigth {
-      flex-direction: row-reverse;
-    }
-
-    .footer {
-      flex-direction: column;
-      justify-content: space-between;
-      height: 170px;
-    }
-    .footer-logo{
-      margin: 0px;
-      margin-left: 45px;
-      order: 0;
-      transform: translateY(-250%);
-      margin-top: 10px;
-    }
-    .footer-nombre{
-      margin-left: 45px;
-      text-align: start;
-      margin-top: 30px;
-      
-    }
-    .footer-lista{
-      text-align: end;
-      display: inline;
-      line-height: 2;
-      padding-top: 0;
-      width: 324px;
-      float: right;
-    }
-    .container-lista{
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 45px;
-    }
-  }
-
-  @media all and (min-width: 1200px){
-
-    .header h1 {
-      margin-left: 142px;
-    }
-
-    .header .lista {
-      padding-right: 138px;
-    }
-
-    .name-team {
-      margin-left: 120px;
-    }
-    .lema {
-      font-size: 24px;
-      color: var(--black);
-      background-color: rgba(255, 255, 255, 0.7);
-      font-weight: 500;
-    }
-    .team {
-      margin-left: 300px;
-      margin-right: 300px;
-      margin-top: 0px;
-    }
-    .title {
-      margin-top: 0px;
-      margin-bottom: 15px;
-      padding-bottom: 0px;
-    }
-
-   .fortalezas {
-    margin-left: 138px;
-    padding-top: 45px;
-    padding-bottom: 60px;
-   }
-   .debilidades {
-    margin-right: 138px;
-    padding-top: 45px;
-    padding-bottom: 60px;
-   }
-   .person {
+  .person {
     margin-left: 150px;
     margin-right: 100px;
-   }
-   .container-foto {
+  }
+  .container-foto {
     width: 286px;
     height: 286px;
     margin: 0;
-   }
-   .info-person, .text, .name {
+  }
+  .info-person,
+  .text,
+  .name {
     width: 40vw;
     text-align: start;
-   }
-   .info-rigth, .text-rigth, .name-rigth{
+  }
+  .info-rigth,
+  .text-rigth,
+  .name-rigth {
     width: 40vw;
     text-align: end;
-   }
-   .iconos {
-    justify-content: flex-start;
-   }
-   .footer-equipo {
-    margin-right: 100px;
-   }
-   .footer-logo, .footer-nombre {
-    margin-left: 150px;
-   }
-   .container-lista{
-    margin-right: 150px;
-   }
   }
+  .iconos {
+    justify-content: flex-start;
+  }
+
+  /*seccion footer */
+  .footer-equipo {
+    margin-right: 100px;
+  }
+  .footer-logo,
+  .footer-nombre {
+    margin-left: 150px;
+  }
+  .container-lista {
+    margin-right: 150px;
+  }
+}

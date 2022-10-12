@@ -47,13 +47,13 @@
       text-decoration: none;
       color: var(--blue-green);
       &::after {
-        color: var(--black);
+        color: var(--blue-green);
         content: " ·";
         font-size: var(--text-font);
       }
-      &:last-child{
-        content: " ";
-        color: var(--black);
+      &:last-child {
+        content: "  ";
+        color: var(--blue-green);
       }
     }
   }

@@ -1,1 +1,40 @@
-
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 250px;
+  border-top: solid 1px #b8b8b9;
+  &__name {
+    font-family: var(--text-font);
+    font-size: 14px;
+    text-align: center;
+    color: #b8b8b9;
+    margin-top: 30px;
+  }
+  &__list {
+    font-family: var(--text-font);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--gunmetal);
+    opacity: 0.75;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 20px;
+    padding: 20px 29px 30px 29px;
+    box-sizing: border-box;
+    &__link {
+      text-decoration: none;
+      color: var(--gunmetal);
+    }
+  }
+  &__brand{
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    width: 115.9px;
+    margin-bottom: 65px;
+    margin-top: 10px;
+  }
+}
