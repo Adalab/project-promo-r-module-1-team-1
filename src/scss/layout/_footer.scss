@@ -58,9 +58,12 @@
     margin-left: auto;
     margin-right: auto;
     height: 45px;
-    width: 115.9px;
     margin-bottom: 65px;
     margin-top: 10px;
+    cursor: pointer;
+    &__logo{
+      width: 115.9px;
+    }
     @media all and (min-width: 768px) {
       justify-content: flex-start;
       margin: 65px 0px 0px 0px;
