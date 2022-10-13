@@ -1,23 +1,11 @@
 
 @import 'core/reset';
+@import 'core/variables';
+@import 'layout/header';
 @import 'layout/contact-hero';
 @import 'layout/contact-formulary';
-/*@import 'core/variables';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/header';
 @import 'layout/footer';
-@import 'pages/index';
-*/
 
-
-/*HOJA DE STYLES: */
-
-
-/*
-    font-family: 'Open Sans';
-    font-family: 'Rubik';
-*/
 * {
   box-sizing: border-box;
   font-family: 'Open Sans';
