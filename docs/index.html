@@ -18,12 +18,12 @@
 <body>
 
     <header class="header">
-        <h1>Women in tech</h1>
-        <nav class="menu">
-            <ul class="lista">
-                <li><a ref="equipo" href="#team" class="lista-elemento">Equipo</a></li>
-                <li><a ref="quiénes somos" href="#quienes-somos" class="lista-elemento">Quiénes somos</a></li>
-                <li><a ref="contacto" href="./contacto.html" class="lista-elemento">Contacto</a></li>
+        <h1 class="header__h1">Women in tech</h1>
+        <nav class="header__nav">
+            <ul class="list">
+                <li><a ref="equipo" href="#team" class="list__element">Equipo</a></li>
+                <li><a ref="quiénes somos" href="#quienes-somos" class="list__element">Quiénes somos</a></li>
+                <li><a ref="contacto" href="./contacto.html" class="list__element">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -32,329 +32,181 @@
         <section class="hero">
         </section>
         <section class="lema">
-            <p class="lema-p">Las mujeres somos el futuro de la programación</p>
+            <p class="lema-p">Las mujeres somos el futuro de la programación.</p>
         </section>
-        <section class="section-1">
-            <section class="team" id="team">
-                <h2 class="title">Equipo</h2>
-                <p class="parrafo-equipo">
-                    Adaptándonos a nuevos entornos, trabajando en equipo, juntas y con ganas de demostrar de lo que somos capaces. Sea lo que sea, encontraremos la solución a tu problema. 
-                </p>
-                <p class="parrafo-equipo">
-                    Que lo que unió el código, no lo separe nadie. 
-                </p>
-            </section>
-            <section>
-                <div class="box"></div>
-                <section class="info">
-                    <section class="fortalezas">
-                        <h2 class="title-2">
-                            Fortalezas
-                        </h2>
-                        <p class="parrafo">
-                            Somos un equipo formado por mujeres que saben lo que quieren y dispuestas a darle un giro de 180º a sus vidas para conseguirlo. Venimos de diferentes sectores pero tenemos algo en común: la pasión por la programación.
-                        </p>
-                    </section>
-                    <section class="debilidades">
-                        <h2 class="title-2">
-                            Debilidades
-                        </h2>
-                        <p class="parrafo">
-                            Es posible que no seamos las personas con más experiencia, pero te prometemos que dedicaremos todo nuestro esfuerzo y dedicación a cumplir tus sueños.
-                        </p>
-                    </section>
-                </section>
-            </section>
-            <section class="quienes-somos" id="quienes-somos">
-                <h2 class="title">
-                    Quiénes somos
+        <section class="section-1" id="team">
+            <h2 class="section-1__title">Equipo</h2>
+            <p class="section-1__text">
+                Adaptándonos a nuevos entornos, trabajando en equipo, juntas y con ganas de demostrar de lo que somos capaces. Sea lo que sea, encontraremos la solución a tu problema. 
+            </p>
+            <p class="section-1__text">
+                Que lo que unió el código, no lo separe nadie. 
+            </p>
+        </section>
+        <div class="box"></div>
+        <section class="section-2">
+            <section class="section-2__strengths">
+                <h2 class="section-2__strengths__title">
+                    Fortalezas
                 </h2>
-                <article class="person">
-                    <div class="container-foto">
-                        <img class="foto" src= ./assets/images/Elena.jpg alt="foto persona 1" />
-                    </div>
-                    <section class="info-person">
-                        <h3 class="name">
-                            Elena Clemente
-                        </h3>
-                        <p class="text">
-                            Nacida en Málaga. Siempre he sido una apasionada de la historia y el arte y he buscado dedicarme a algo creativo, pero hasta ahora, no sentía que hubiera encontrado mi hueco. Tras trabajar en el ámbito cultural y de la atención al cliente, decidí dar un cambio a mi vida entrando de lleno en el mundo de las nuevas tecnologías y la programación. El cine es mi pasión, así como leer clásicos y aprender cosas nuevas.
-                        </p>
-                        <div class="iconos">
-                            <a
-                          href="https://twitter.com/Elenacleren"
-                          ><i class="fab fa-twitter icono"></i>
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/in/elena-clemente-rentero/"
-                          ><i class="fab fa-linkedin-in icono"></i>
-                        </a>
-                        <a
-                          href="https://github.com/ElenaRentero"
-                          ><i class="fab fa-github-alt icono"></i>
-                        </a>
-                        <a 
-                          href="mailto:elenaclementerentero@gmail.com"
-                          ><i class="fas fa-envelope icono"></i>
-                        </a>
-                        </div>
-                        <!-- <ul class="iconos">
-                            <a href="https://twitter.com/Elenacleren" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </li>
-                            </a>
-                            <a href="https://www.linkedin.com/in/elena-clemente-rentero/" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </li>
-                            </a>
-                            <a href="https://github.com/ElenaRentero" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-github-alt"></i>
-                                </li>
-                            </a>
-                            <a href="mailto:elenaclementerentero@gmail.com" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </li>
-                            </a>
-                        </ul> -->
-                    </section>
-                </article>
-
-                <article class="person rigth">
-                    <div class="container-foto">
-                        <img class="foto" src=  alt="foto persona 2" />
-                    </div>
-                    <section class="info-rigth">
-                        <h3 class="name-rigth">
-                            Rebeca Gómez
-                        </h3>
-                        <p class="text-rigth">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus neque magnam quis rem voluptas
-                laudantium explicabo, molestias tenetur eveniet iste modi laboriosam, accusamus dolore omnis
-                voluptatem hic similique, libero vitae!
-                        </p>
-                        <div class="iconos-rigth">
-                            <a
-                          href=""
-                          ><i class="fab fa-twitter icono"></i>
-                        </a>
-                        <a
-                          href=""
-                          ><i class="fab fa-linkedin-in icono"></i>
-                        </a>
-                        <a
-                          href=""
-                          ><i class="fab fa-github-alt icono"></i>
-                        </a>
-                        <a 
-                          href="mailto:"
-                          ><i class="fas fa-envelope icono"></i>
-                        </a>
-                        </div>
-                        <!-- <ul class="iconos-rigth">
-                            <a href="" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </li>
-                            </a>
-                            <a href="" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </li>
-                            </a>
-                            <a href="" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-github-alt"></i>
-                                </li>
-                            </a>
-                            <a href="mailto:" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </li>
-                            </a>
-                        </ul> -->
-                    </section>
-                </article>
-
-                <article class="person">
-                    <div class="container-foto">
-                        <img class="foto" src= ./assets/images/Lucia.jpg alt="foto persona 1" />
-                    </div>
-                    <section class="info-person">
-                        <h3 class="name">
-                            Lucía Kestel
-                        </h3>
-                        <p class="text">
-                            Soy Argentina, aunque llevo residiendo en Málaga desde que era muy pequeña. Soy ingeniera química, pero prácticamente toda mi experiencia laboral ha sido en hostelería. Me encanta escuchar música, viajar, pero sobre todo pasar tiempo con mi familia.
-                        </p>
-                        <div class="iconos">
-                            <a
-                          href="https://twitter.com/Luchikestel"
-                          ><i class="fab fa-twitter icono"></i>
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/in/lucia-kestel/"
-                          ><i class="fab fa-linkedin-in icono"></i>
-                        </a>
-                        <a
-                          href="https://github.com/Luciakestel"
-                          ><i class="fab fa-github-alt icono"></i>
-                        </a>
-                        <a 
-                          href="mailto:luciakestelpires@gmail.com"
-                          ><i class="fas fa-envelope icono"></i>
-                        </a>
-                        </div>
-                        <!-- <ul class="iconos">
-                            <a href="https://twitter.com/Luchikestel" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </li>
-                            </a>
-                            <a href="https://www.linkedin.com/in/lucia-kestel/" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </li>
-                            </a>
-                            <a href="https://github.com/Luciakestel" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-github-alt"></i>
-                                </li>
-                            </a>
-                            <a href="mailto:luciakestelpires@gmail.com" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </li>
-                            </a>
-                        </ul> -->
-                    </section>
-                </article>
-
-                <article class="person rigth">
-                    <div class="container-foto">
-                        <img class="foto" src= ./assets/images/Raquel.jpg alt="foto persona 2" />
-                    </div>
-                    <section class="info-rigth">
-                        <h3 class="name-rigth">
-                            Raquel Peña
-                        </h3>
-                        <p class="text-rigth">
-                            Aunque soy de Barcelona, vivo en Guadalajara. Estudié un grado superior y durante mucho tiempo trabajé como supervisora en una compañía de seguros. Me encantan los gatos, tengo siete (sí...), los vídeojuegos y lanzarme a nuevos retos
-                        </p>
-                        <div class="iconos-rigth">
-                            <a
-                          href="https://twitter.com/Adalab_Digital"
-                          ><i class="fab fa-twitter icono"></i>
-                        </a>
-                        <a
-                          href="https://es.linkedin.com/school/adalab/"
-                          ><i class="fab fa-linkedin-in icono"></i>
-                        </a>
-                        <a
-                          href="https://github.com/Rpg87"
-                          ><i class="fab fa-github-alt icono"></i>
-                        </a>
-                        <a 
-                          href="mailto:sra.picadillo@gmail.com"
-                          ><i class="fas fa-envelope icono"></i>
-                        </a>
-                        </div>
-                        <!-- <ul class="iconos-rigth">
-                            <a href="" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </li>
-                            </a>
-                            <a href="https://es.linkedin.com/school/adalab/" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </li>
-                            </a>
-                            <a href="https://github.com/Rpg87" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-github-alt"></i>
-                                </li>
-                            </a>
-                            <a href="mailto:sra.picadillo@gmail.com" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </li>
-                            </a>
-                        </ul> -->
-                    </section>
-                </article>
-
-                <article class="person">
-                    <div class="container-foto">
-                        <img class="foto" src= ./assets/images/Nayra.jpg alt="foto persona 1" />
-                    </div>
-                    <section class="info-person">
-                        <h3 class="name">
-                            Nayra Romero
-                        </h3>
-                        <p class="text">
-                            Madrileña de toda la vida. Dediqué cuatro largos años de mi vida a las ciencias políticas para acabar buscando mi hueco en el mundo de la tecnología. Me encanta superarme a mí misma y no permanecer demasiado tiempo en mi zona de confort.
-                        </p>
-                        <div class="iconos">
-                            <a
-                          href="https://twitter.com/nromerosalas"
-                          ><i class="fab fa-twitter icono"></i>
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/in/nayra-romero-salas/"
-                          ><i class="fab fa-linkedin-in icono"></i>
-                        </a>
-                        <a
-                          href="https://github.com/nayraromero"
-                          ><i class="fab fa-github-alt icono"></i>
-                        </a>
-                        <a 
-                          href="mailto:nayraromerosalas@gmail.com"
-                          ><i class="fas fa-envelope icono"></i>
-                        </a>
-                        </div>
-                        <!-- <ul class="iconos">
-                            <a href="https://twitter.com/nromerosalas" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </li>
-                            </a>
-                            <a href="https://www.linkedin.com/in/nayra-romero-salas/" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </li>
-                            </a>
-                            <a href="https://github.com/nayraromero" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-brands fa-github-alt"></i>
-                                </li>
-                            </a>
-                            <a href="mailto:nayraromerosalas@gmail.com" target="_blank" class="link">
-                                <li class="icono">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </li>
-                            </a>
-                        </ul> -->
-                    </section>
-                </article>
-
+                <p class="section-2__strengths__text">
+                    Somos un equipo formado por mujeres que saben lo que quieren y dispuestas a darle un giro de 180º a sus vidas para conseguirlo. Venimos de diferentes sectores pero tenemos algo en común: la pasión por la programación.
+                </p>
             </section>
+            <section class="section-2__weaknesses">
+                <h2 class="section-2__weaknesses__title">
+                    Debilidades
+                </h2>
+                <p class="section-2__weaknesses__text">
+                    Es posible que no seamos las personas con más experiencia, pero te prometemos que dedicaremos todo nuestro esfuerzo y dedicación a cumplir tus sueños.
+                </p>
+            </section>
+        </section>
+        <section class="section-3" id="quienes-somos">
+            <h2 class="section-3__title">
+                Quiénes somos
+            </h2>
+            <article class="member">
+                <div class="member__container">
+                    <img class="member__container__foto" src=./assets/images/Elena.jpg alt="foto persona 1" />
+                </div>
+                <section class="member-info">
+                    <h3 class="member-info__name">
+                        Elena Clemente
+                    </h3>
+                    <p class="member-info__text">
+                        Nacida en Málaga. Siempre he sido una apasionada de la historia y el arte y he buscado dedicarme a algo creativo, pero hasta ahora, no sentía que hubiera encontrado mi hueco. Tras trabajar en el ámbito cultural y de la atención al cliente, decidí dar un cambio a mi vida entrando de lleno en el mundo de las nuevas tecnologías y la programación. El cine es mi pasión, así como leer clásicos y aprender cosas nuevas.
+                    </p>
+                    <div class="member-info__icons">
+                        <a href="https://twitter.com/Elenacleren" target="_blank"><i class="fab fa-twitter member-info__icons__link"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/elena-clemente-rentero/" target="_blank"><i class="fab fa-linkedin-in member-info__icons__link"></i>
+                        </a>
+                        <a href="https://github.com/ElenaRentero" target="_blank"><i class="fab fa-github-alt member-info__icons__link"></i>
+                        </a>
+                        <a href="mailto:elenaclementerentero@gmail.com" target="_blank"><i class="fas fa-envelope member-info__icons__link--none"></i>
+                        </a>
+                    </div>
+                </section>
+            </article>
+
+            <article class="member-rigth">
+                <div class="member-rigth__container">
+                    <img class="member-rigth__container__foto" src=./assets/images/Rebeca.jpeg alt="foto persona 1" />
+                </div>
+                <section class="member-rigth-info">
+                    <h3 class="member-rigth-info__name">
+                        Rebeca Gómez
+                    </h3>
+                    <p class="member-rigth-info__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus neque magnam quis rem voluptas
+            laudantium explicabo, molestias tenetur eveniet iste modi laboriosam, accusamus dolore omnis
+            voluptatem hic similique, libero vitae!
+                    </p>
+                    <div class="member-rigth-info__icons">
+                        <a href="https://twitter.com/Adalab_Digital" target="_blank"><i class="fab fa-twitter member-rigth-info__icons__link"></i>
+                        </a>
+                        <a href="https://es.linkedin.com/school/adalab/" target="_blank"><i class="fab fa-linkedin-in member-rigth-info__icons__link"></i>
+                        </a>
+                        <a href="https://github.com/Becky-Gómez-Castillejos" target="_blank"><i class="fab fa-github-alt member-rigth-info__icons__link"></i>
+                        </a>
+                        <a href="mailto:rebecachambers919@gmail.com" target="_blank"><i class="fas fa-envelope member-rigth-info__icons__link--none"></i>
+                        </a>
+                    </div>
+                </section>
+            </article>>
+            
+            </include>
+
+            <article class="member">
+                <div class="member__container">
+                    <img class="member__container__foto" src=./assets/images/Lucia.jpg alt="foto persona 1" />
+                </div>
+                <section class="member-info">
+                    <h3 class="member-info__name">
+                        Lucía Kestel
+                    </h3>
+                    <p class="member-info__text">
+                        Soy Argentina, aunque llevo residiendo en Málaga desde que era muy pequeña. Soy ingeniera química, pero prácticamente toda mi experiencia laboral ha sido en hostelería. Me encanta escuchar música, viajar, pero sobre todo pasar tiempo con mi familia.
+                    </p>
+                    <div class="member-info__icons">
+                        <a href="https://twitter.com/Luchikestel" target="_blank"><i class="fab fa-twitter member-info__icons__link"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lucia-kestel/" target="_blank"><i class="fab fa-linkedin-in member-info__icons__link"></i>
+                        </a>
+                        <a href="https://github.com/Luciakestel" target="_blank"><i class="fab fa-github-alt member-info__icons__link"></i>
+                        </a>
+                        <a href="mailto:luciakestelpires@gmail.com" target="_blank"><i class="fas fa-envelope member-info__icons__link--none"></i>
+                        </a>
+                    </div>
+                </section>
+            </article>
+
+            <article class="member-rigth">
+                <div class="member-rigth__container">
+                    <img class="member-rigth__container__foto" src=./assets/images/Raquel.jpg alt="foto persona 1" />
+                </div>
+                <section class="member-rigth-info">
+                    <h3 class="member-rigth-info__name">
+                        Raquel Peña
+                    </h3>
+                    <p class="member-rigth-info__text">
+                        Aunque soy de Barcelona, vivo en Guadalajara. Estudié un grado superior y durante mucho tiempo trabajé como supervisora en una compañía de seguros. Me encantan los gatos, tengo siete (sí...), los vídeojuegos y lanzarme a nuevos retos
+                    </p>
+                    <div class="member-rigth-info__icons">
+                        <a href="https://twitter.com/Adalab_Digital" target="_blank"><i class="fab fa-twitter member-rigth-info__icons__link"></i>
+                        </a>
+                        <a href="https://es.linkedin.com/school/adalab/" target="_blank"><i class="fab fa-linkedin-in member-rigth-info__icons__link"></i>
+                        </a>
+                        <a href="https://github.com/Rpg87" target="_blank"><i class="fab fa-github-alt member-rigth-info__icons__link"></i>
+                        </a>
+                        <a href="mailto:sra.picadillo@gmail.com" target="_blank"><i class="fas fa-envelope member-rigth-info__icons__link--none"></i>
+                        </a>
+                    </div>
+                </section>
+            </article>
+
+            <article class="member">
+                <div class="member__container">
+                    <img class="member__container__foto" src=./assets/images/Nayra.jpg alt="foto persona 1" />
+                </div>
+                <section class="member-info">
+                    <h3 class="member-info__name">
+                        Nayra Romero
+                    </h3>
+                    <p class="member-info__text">
+                        Madrileña de toda la vida. Dediqué cuatro largos años de mi vida a las ciencias políticas para acabar buscando mi hueco en el mundo de la tecnología. Me encanta superarme a mí misma y no permanecer demasiado tiempo en mi zona de confort.
+                    </p>
+                    <div class="member-info__icons">
+                        <a href="https://twitter.com/nromerosalas" target="_blank"><i class="fab fa-twitter member-info__icons__link"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nayra-romero-salas/" target="_blank"><i class="fab fa-linkedin-in member-info__icons__link"></i>
+                        </a>
+                        <a href="https://github.com/nayraromero" target="_blank"><i class="fab fa-github-alt member-info__icons__link"></i>
+                        </a>
+                        <a href="mailto:nayraromerosalas@gmail.com" target="_blank"><i class="fas fa-envelope member-info__icons__link--none"></i>
+                        </a>
+                    </div>
+                </section>
+            </article>
+
+        </section>
+           
     </main>
     <footer class="footer">
-        <p class="footer-nombre">
+        <p class="footer__name">
             Women in Tech &copy;2022
         </p>
-        <nav class="container-lista">
-            <ul class="footer-lista">
-                <li> <a href="./index.html">Equipo</a> </li>
-                <li> <a href="#quienes-somos">Quiénes somos</a> </li>
-                <li> <a href="./contacto.html">Contacto</a> </li>
+        <nav>
+            <ul class="footer__list">
+                <li> <a href="./index.html" class="footer__list__link">Equipo</a> </li>
+                <li> <a href="#quienes-somos" class="footer__list__link">Quiénes somos</a> </li>
+                <li> <a href="./contacto.html" class="footer__list__link">Contacto</a></li>
             </ul>
         </nav>
-        <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
+        <a href="https://adalab.es/" class="footer__brand" target="_blank">
+            <img class="footer__brand__logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
+        </a>
     </footer>
 </body>
 
