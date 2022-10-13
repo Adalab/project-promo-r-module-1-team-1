@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
@@ -19,46 +19,72 @@
 <body>
 
     <header class="header">
-        <h1>Women in tech</h1>
-        <nav class="menu">
-            <ul class="lista">
-                <li><a ref="equipo" href="#team" class="lista-elemento">Equipo</a></li>
-                <li><a ref="quiénes somos" href="#quienes-somos" class="lista-elemento">Quiénes somos</a></li>
-                <li><a ref="contacto" href="./contacto.html" class="lista-elemento">Contacto</a></li>
+        <h1 class="header__h1">Women in tech</h1>
+        <nav class="header__nav">
+            <ul class="list">
+                <li><a ref="equipo" href="#team" class="list__element">Equipo</a></li>
+                <li><a ref="quiénes somos" href="#quienes-somos" class="list__element">Quiénes somos</a></li>
+                <li><a ref="contacto" href="./contacto.html" class="list__element">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <img class="foto-hero">
+            <img class="photo-hero">
         </section>
-        <section class="contacto">
-            <h2 class="title">Contacto</h2>
-            <p class="text">Si necesitas nuestros servicios y tienes alguna duda o te gustaría obtener más información, puedes rellenar el siguiente formulario y nos pondremos el contacto contigo lo más pronto posible</p>
-            <small class="small">Todos los campos marcados con <span class="asterisco">*</span> son
+        <section class="contact">
+            <h2 class="contact__title">Contacto</h2>
+            <p class="contact__text">Si necesitas nuestros servicios y tienes alguna duda o te gustaría obtener más información, puedes rellenar el siguiente formulario y nos pondremos el contacto contigo lo más pronto posible</p>
+            <small class="contact__small">Todos los campos marcados con <span class="small--asterisk">*</span> son
                 obligatorios.</small>
         </section>
-        <form class="formulario" action="/signup" method="post">
+
+        <form class="formulary" action="/signup" method="post">
             <label class="star" for="fullName">Nombre completo</label>
             <input placeholder="Nombre..." type="text" id="fullName" name="fullName" />
             <div class="flex">
-                <label class="star" for="emailAddress">Email</label>
-                <input placeholder="nombre.apellidos@mail.com" type="email" id="emailAddress" name="emailAddress" />
-                <label for="telephone">Teléfono</label>
-                <input placeholder="Ej:123456789" type="tel" id="telephone" name="telephone" />
+                <div class="div">
+                    <label class="star" for="emailAddress">Email</label>
+                    <input class="email-container" placeholder="Nombre.apellidos@mail.com" type="email" id="emailAddress" name="emailAddress" />
+                </div>
+                    
+                <div class="div">
+                    <label for="telephone">Teléfono</label>
+                    <input placeholder="Ej:123456789" type="tel" id="telephone" name="telephone" />
+                </div>
+                
+                    
             </div>
             <label class="star" for="comments">Mensaje</label>
             <textarea id="comments" placeholder="¿Qué necesitas?" name="Mensaje" rows="8" cols="80"></textarea>
-            <input class="enviar" type="submit" value="Enviar" />
+            <input class="send" type="submit" value="Enviar" />
         </form>
+
     </main>
+
+    <!--<footer class="footer">
+    <p class="footer__name">
+        Women in Tech &copy;2022
+    </p>
+    <nav>
+        <ul class="footer__list">
+            <li> <a href="./index.html" class="footer__list__link">Equipo</a> </li>
+            <li> <a href="#quienes-somos" class="footer__list__link">Quiénes somos</a> </li>
+            <li> <a href="./contacto.html" class="footer__list__link">Contacto</a></li>
+        </ul>
+    </nav>
+    <a href="https://adalab.es/" class="footer__brand" target="_blank">
+        <img class="footer__brand__logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
+    </a>
+</footer>-->
+
     <footer class="footer">
-        <p class="footer-nombre">
+        <p class="footer-name">
             Women in Tech &copy;2022
         </p>
-        <nav class="container-lista">
-            <ul class="footer-lista">
+        <nav class="container-list">
+            <ul class="footer-list">
                 <li> <a href="./index.html">Equipo</a> </li>
                 <li> <a href="#quienes-somos">Quiénes somos</a> </li>
                 <li> <a href="./contacto.html">Contacto</a> </li>
