@@ -101,7 +101,7 @@
         content: " ·";
         font-size: var(--text-font);
       }
-      &:last-child {
+      &--none {
         content: "  ";
         color: var(--blue-green);
       }
