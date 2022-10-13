@@ -21,6 +21,10 @@
     color: white;
     font-size: 20px;
     text-transform: uppercase;
+    a{
+      text-decoration: none;
+      color: white;
+    }
     @media all and (min-width: 1200px) {
       margin-left: 142px;
       padding-left: 0px;
