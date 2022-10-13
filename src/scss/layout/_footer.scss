@@ -4,14 +4,17 @@
   justify-content: center;
   text-align: center;
   border-top: solid 1px #b8b8b9;
+
   @media all and (min-width: 768px) {
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 30px 45px 60px;
   }
-  @media all and (min-width:1200px){
+
+  @media all and (min-width:1200px) {
     padding: 24px 138px 0px;
   }
+
   &__name {
     font-family: var(--text-font);
     font-size: 14px;
@@ -19,6 +22,7 @@
     color: #b8b8b9;
     margin-top: 30px;
     height: fit-content;
+
     @media all and (min-width: 768px) {
       justify-content: flex-start;
       order: 1;
@@ -26,10 +30,12 @@
       left: 45px;
       position: absolute;
     }
-    @media all and (min-width:1200px){
+
+    @media all and (min-width:1200px) {
       left: 138px;
     }
   }
+
   &__list {
     font-family: var(--text-font);
     font-weight: 600;
@@ -42,28 +48,33 @@
     margin-left: 20px;
     padding: 20px 29px 30px 29px;
     box-sizing: border-box;
+
     @media all and (min-width: 768px) {
-    align-items: flex-end;
-    line-height: 30px;
-    margin: 0;
-    order: 3;
+      align-items: flex-end;
+      line-height: 30px;
+      margin: 0;
+      order: 3;
     }
+
     &__link {
       text-decoration: none;
       color: var(--gunmetal);
       padding: 0;
     }
   }
-  &__brand{
+
+  &__brand {
     margin-left: auto;
     margin-right: auto;
     height: 45px;
     margin-bottom: 65px;
     margin-top: 10px;
     cursor: pointer;
-    &__logo{
+
+    &__logo {
       width: 115.9px;
     }
+
     @media all and (min-width: 768px) {
       justify-content: flex-start;
       margin: 65px 0px 0px 0px;
