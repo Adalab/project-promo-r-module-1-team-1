@@ -1,9 +1,10 @@
 
 @import 'core/reset';
+@import 'layout/contact-hero';
+@import 'layout/contact-formulary';
 /*@import 'core/variables';
 @import 'components/code';
 @import 'components/links';
-@import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'pages/index';
@@ -50,13 +51,13 @@
       background-color: rgba(20, 217, 196, 0.5);
       font-family: 'Rubik';
       padding: 20px;
-      .lista {
+      .list {
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-transform: uppercase;
         width: 100%;
-        .lista-elemento {
+        .list-element {
           font-size: 15px;
           text-decoration: none;
           color: white;
@@ -65,115 +66,6 @@
     }
   }
   
-  main {
-    .hero {
-      background: url(../images/contact-us.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size:cover;
-      width: 100%;
-      height: 320px;
-    }
-  }
-
-  .contacto{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 58px;
-    text-align: center;
-    .title {
-      font-family: "Rubik";
-      font-size: 24px;
-      font-weight: 500;
-      color: var(--blue-green);
-      text-align: center;
-      text-transform: uppercase;
-      padding: 30px 0 15px;
-      letter-spacing: 0.5px;
-    }
-    .text {
-      color: var(--gunmetal);
-      margin-bottom: 30px;
-      text-align: center;
-      font-family: "Open Sans";
-      font-size: 16px;
-      line-height: 1.5;
-    }
-    .small {
-      color: var(--gunmetal);
-      text-align: center;
-      font-family: "Open Sans";
-      font-size: 12px;
-      line-height: 1.5;
-      .asterisco  {
-        font-size: 12px;
-        color: var(--aqua);
-        font-size: "Open Sans";
-      }
-    }
-  }
-
-  .formulario{
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    font-family: "Open Sans";
-    margin-left: 15px;
-    margin-right: 15px;
-    .star {
-      font-size: 14px;
-      color: var(--gunmetal);
-    } 
-    .comments{
-      overflow: scroll;
-      resize: none;
-      font-size: 14px;
-      font-family: 'Open Sans';
-      color: var(--cool-grey);
-    }
-    .star:after {
-      content: " *";
-      font-size: 12px;
-      color: var(--aqua);
-      font-size: "Open Sans";
-    }
-    .star::placeholder{
-      color: var(--cool-grey);
-      font-size: 12px;
-      font-family: 'Open Sans';
-    }
-    label{
-      color: var(--gunmetal);
-      margin-bottom: 7px;
-      margin-top: 7px;
-    }
-
-    .flex{
-      display: flex;
-      flex-direction: column;
-    }
-
-    input {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      border: solid 1px #b8b8b9;
-      padding: 10px;
-    }
-    .enviar{
-      background-color: var(--blue-green);
-      color: white;
-      text-transform: uppercase;
-      font-family: "Open Sans";
-      font-size: 16px;
-      font-weight: 600;
-      padding-top: 11px;
-      padding-bottom: 12px;
-      margin-top: 30px;
-      margin-bottom: 60px;
-      border-radius: 5px;
-    }
-  }
   
   .footer {
     display: flex;
@@ -184,7 +76,7 @@
     border-top: solid 1px #b8b8b9;
   }
   
-  .footer-nombre {
+  .footer-name {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     text-align: center;
@@ -192,7 +84,7 @@
     margin-top: 30px;
   }
   
-  .footer-lista {
+  .footer-list {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -205,7 +97,7 @@
     padding: 20px 29px 30px 29px;
     box-sizing: border-box;
   }
-  .footer-lista a {
+  .footer-list a {
     text-decoration: none;
     color: var(--gunmetal);
   }
@@ -239,28 +131,13 @@
       }
       .menu {
         background-color: var(--blue-green);
-        .lista-elemento {
+        .list-element {
           padding: 19px;
           text-align: center;
         }
       }
     }
-    .contacto{
-      margin: 30px 163px 58px 163px;
-    }
-    .formulario{
-      margin-left: 163px;
-      margin-right: 163px;
-      margin-top: 58px;
-      .flex{
-        flex-direction: row;
-        padding-top: 20px;
-      }
-      .enviar{
-        width: 50%;
-        align-self: flex-end;
-      }
-    }
+    
     .footer {
       flex-direction: column;
       justify-content: space-between;
@@ -273,13 +150,13 @@
       transform: translateY(-250%);
       margin-top: 10px;
     }
-    .footer-nombre{
+    .footer-name{
       margin-left: 45px;
       text-align: start;
       margin-top: 30px;
       
     }
-    .footer-lista{
+    .footer-list{
       text-align: end;
       display: inline;
       line-height: 2;
@@ -287,7 +164,7 @@
       width: 324px;
       float: right;
     }
-    .container-lista{
+    .container-list{
       display: flex;
       justify-content: flex-end;
     }
@@ -300,33 +177,12 @@
       padding-right: 142px;
     }
 
-    .contacto{
+    .contact{
       margin-right: 300px;
       margin-left: 299px;
     }
 
-    .formulario{
-      margin-right: 300px;
-      margin-left: 299px;
-    }
-
-    .formulario .flex{
-      display: flex;
-      justify-content: space-between;
-
-      label {
-        text-align: left;
-      }
-      .email {
-        width: 395px;
-      }
-      .phone {
-        width: 162px;
-    }
-  }
-    .formulario .enviar{
-      margin-bottom: 120px;
-    }
+    
 
     .footer{
       padding-left: 138px;

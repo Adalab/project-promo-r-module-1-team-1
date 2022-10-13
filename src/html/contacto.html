@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
@@ -21,35 +21,20 @@
     <include src="../partials/_header.html"></include>
 
     <main>
-        <section class="hero">
-            <img class="foto-hero">
-        </section>
-        <section class="contacto">
-            <h2 class="title">Contacto</h2>
-            <p class="text">Si necesitas nuestros servicios y tienes alguna duda o te gustaría obtener más información, puedes rellenar el siguiente formulario y nos pondremos el contacto contigo lo más pronto posible</p>
-            <small class="small">Todos los campos marcados con <span class="asterisco">*</span> son
-                obligatorios.</small>
-        </section>
-        <form class="formulario" action="/signup" method="post">
-            <label class="star" for="fullName">Nombre completo</label>
-            <input placeholder="Nombre..." type="text" id="fullName" name="fullName" />
-            <div class="flex">
-                <label class="star" for="emailAddress">Email</label>
-                <input placeholder="nombre.apellidos@mail.com" type="email" id="emailAddress" name="emailAddress" />
-                <label for="telephone">Teléfono</label>
-                <input placeholder="Ej:123456789" type="tel" id="telephone" name="telephone" />
-            </div>
-            <label class="star" for="comments">Mensaje</label>
-            <textarea id="comments" placeholder="¿Qué necesitas?" name="Mensaje" rows="8" cols="80"></textarea>
-            <input class="enviar" type="submit" value="Enviar" />
-        </form>
+        <include src="../partials/_contact-hero.html"></include>
+
+        <include src="../partials/_contact-formulary.html"></include>
+
     </main>
+
+    <!--<include src="../partials/_footer.html"></include>-->
+
     <footer class="footer">
-        <p class="footer-nombre">
+        <p class="footer-name">
             Women in Tech &copy;2022
         </p>
-        <nav class="container-lista">
-            <ul class="footer-lista">
+        <nav class="container-list">
+            <ul class="footer-list">
                 <li> <a href="./index.html">Equipo</a> </li>
                 <li> <a href="#quienes-somos">Quiénes somos</a> </li>
                 <li> <a href="./contacto.html">Contacto</a> </li>
