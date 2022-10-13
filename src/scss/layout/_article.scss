@@ -18,6 +18,7 @@
     @media all and (min-width: 768px) {
       width: 213px;
       height: 213px;
+      margin-bottom: 0;
     }
     &__foto {
       width: 100%;
@@ -37,9 +38,9 @@
     @media all and (min-width: 768px) {
       width: 60vw;
       text-align: start;
-      margin-left: 15px;
-      padding-right: 44px;
+      margin-left: 31px;
       margin-right: 0;
+      margin-top: 30px;
     }
   }
   &__text {
@@ -54,8 +55,7 @@
     @media all and (min-width: 768px) {
       width: 60vw;
       text-align: start;
-      margin-left: 15px;
-      padding-right: 44px;
+      margin-left: 31px;
       margin-right: 0;
     }
   }
@@ -72,7 +72,8 @@
     color: var(--blue-green);
     @media all and (min-width: 768px) {
       justify-content: flex-start;
-      margin-left: 15px;
+      margin-left: 31px;
+      margin-bottom: 0;
     }
     &__link {
       text-decoration: none;

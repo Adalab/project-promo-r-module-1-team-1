@@ -7,6 +7,11 @@
 @import "layout/article";
 @import "layout/article-rigth";
 @import "layout/footer";
+
+*{
+  box-sizing: border-box;
+}
+
 .hero {
   background-image: url(../images/hero.jpg);
   background-position: center;
