@@ -5,6 +5,7 @@
 @import "layout/section-2";
 @import "layout/section-3";
 @import "layout/article";
+@import "layout/article-rigth";
 @import "layout/footer";
 .hero {
   background-image: url(../images/hero.jpg);
@@ -20,7 +21,7 @@
   padding: 14px 15px 16px 15px;
   background-color: white;
   transform: translateY(-50%);
-  margin: 0 15px 0 15px; 
+  margin: 0 15px 0 15px;
 }
 .lema-p {
   font-family: var(--text-font);
@@ -36,7 +37,6 @@
 }
 
 @media all and (min-width: 768px) {
- 
   .lema {
     padding: 15px 30px;
     margin-left: 46px;
@@ -48,51 +48,51 @@
   .title {
     padding-bottom: 15px;
   }
-  .person {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 67px;
-    padding-left: 45px;
-    padding-right: 45px;
-    align-content: flex-start;
-  }
-  .container-foto {
-    width: 213px;
-    height: 213px;
-  }
-  .info-rigth,
-  .name-rigth,
-  .text-rigth {
-    text-align: end;
-    width: 60vw;
-    margin-left: 15px;
-    padding-right: 44px;
-    margin-right: 0;
-  }
-  .iconos {
-    justify-content: flex-start;
-    margin-left: 15px;
-  }
-  .iconos-rigth {
-    justify-content: flex-end;
-    margin-left: 15px;
-  }
-  .info-person,
-  .name,
-  .text {
-    width: 60vw;
-    text-align: start;
-    margin-left: 15px;
-    padding-right: 44px;
-    margin-right: 0;
-  }
+  // .person {
+  //   display: flex;
+  //   flex-direction: row;
+  //   padding-bottom: 67px;
+  //   padding-left: 45px;
+  //   padding-right: 45px;
+  //   align-content: flex-start;
+  // }
+  // .container-foto {
+  //   width: 213px;
+  //   height: 213px;
+  // }
+  // .info-rigth,
+  // .name-rigth,
+  // .text-rigth {
+  //   text-align: end;
+  //   width: 60vw;
+  //   margin-left: 15px;
+  //   padding-right: 44px;
+  //   margin-right: 0;
+  // }
+  // .iconos {
+  //   justify-content: flex-start;
+  //   margin-left: 15px;
+  // }
+  // .iconos-rigth {
+  //   justify-content: flex-end;
+  //   margin-left: 15px;
+  // }
+  // .info-person,
+  // .name,
+  // .text {
+  //   width: 60vw;
+  //   text-align: start;
+  //   margin-left: 15px;
+  //   padding-right: 44px;
+  //   margin-right: 0;
+  // }
 
-  .name {
-    margin-top: 20px;
-  }
-  .iconos {
-    margin-top: 15px;
-  }
+  // .name {
+  //   margin-top: 20px;
+  // }
+  // .iconos {
+  //   margin-top: 15px;
+  // }
 }
 
 @media all and (min-width: 1200px) {
@@ -103,7 +103,7 @@
     font-weight: 500;
     margin-left: 138px;
   }
- 
+
   /*seccion 3 elena */
 
   .person {
