@@ -46,6 +46,7 @@
     @media all and (min-width: 768px) {
       text-align: end;
       width: 60vw;
+      margin-left: 15px;
       padding-right: 44px;
       margin-right: 0;
     }
@@ -66,7 +67,6 @@
     @media all and (min-width: 768px) {
       text-align: end;
       width: 60vw;
-      margin-left: 0px;
       padding-right: 44px;
       margin-right: 0;
     }
@@ -87,8 +87,8 @@
     gap: 10px;
     color: var(--blue-green);
     @media all and (min-width: 768px) {
-      width: 40vw;
-      text-align: end;
+      justify-content: flex-end;
+      margin-right: 38px;
     }
     @media all and (min-width: 1200px) {
       justify-content: flex-end;
