@@ -9,6 +9,10 @@
     padding-right: 45px;
     align-content: flex-start;
   }
+  @media all and (min-width: 1200px) {
+    margin-left: 150px;
+    margin-right: 100px;
+  }
   &__container {
     width: 190px;
     height: 190px;
@@ -19,6 +23,11 @@
       width: 213px;
       height: 213px;
       margin-bottom: 0;
+    }
+    @media all and (min-width: 1200px) {
+      width: 286px;
+      height: 286px;
+      margin: 0;
     }
     &__foto {
       width: 100%;
@@ -42,6 +51,10 @@
       margin-right: 0;
       margin-top: 30px;
     }
+    @media all and (min-width: 1200px) {
+      width: 40vw;
+      text-align: start;
+    }
   }
   &__text {
     font-family: var(--text-font);
@@ -57,6 +70,10 @@
       text-align: start;
       margin-left: 31px;
       margin-right: 0;
+    }
+    @media all and (min-width: 1200px) {
+      width: 40vw;
+      text-align: start;
     }
   }
   &__icons {
@@ -75,6 +92,9 @@
       margin-left: 31px;
       margin-bottom: 0;
     }
+    @media all and (min-width: 1200px) {
+      justify-content: flex-start;
+    }
     &__link {
       text-decoration: none;
       color: var(--blue-green);
@@ -83,7 +103,7 @@
         content: " ·";
         font-size: var(--text-font);
       }
-      &--none{
+      &--none {
         content: "  ";
         color: var(--blue-green);
       }
