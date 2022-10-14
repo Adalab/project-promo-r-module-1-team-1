@@ -1,23 +1,26 @@
 .member-rigth {
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
+  grid-template-rows: auto 1fr;
+  align-self: center;
+  justify-self: center;
   // display: flex;
   // flex-direction: column;
   // align-items: center;
   @media all and (min-width: 768px) {
-    grid-template-columns: 2fr (minmax(100px, 420px)) 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
     //   flex-direction: row-reverse;
     //   padding-bottom: 67px;
     //   padding-left: 45px;
     //   padding-right: 45px;
     //   align-content: flex-end;
   }
-  @media all and (min-width: 1200px) {
-    margin-left: 300px;
-    margin-right: 100px;
-  }
+  // @media all and (min-width: 1200px) {
+  //    margin-left: 300px;
+  //    margin-right: 100px;
+  // }
   &__container {
     width: 190px;
     height: 190px;
