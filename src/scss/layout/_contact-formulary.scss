@@ -77,6 +77,23 @@
     margin-top: 30px;
     margin-bottom: 60px;
     border-radius: 5px;
+    animation-name: send;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    @keyframes send {
+      0% {
+        transform: translateX(-3%);
+      }
+      25% {
+        transform: translateX(0%);
+      }
+      50% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-3%);
+      }
+    }
   }
 }
 
@@ -134,22 +151,5 @@
 
   .formulary .send {
     margin-bottom: 120px;
-    animation-name: send;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    @keyframes send {
-      0% {
-        transform: translateX(-20%);
-      }
-      25% {
-        transform: translateX(0%);
-      }
-      50% {
-        transform: translateX(0%);
-      }
-      100% {
-        transform: translateX(-20%);
-      }
-    }
   }
 }
