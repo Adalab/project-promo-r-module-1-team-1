@@ -19,11 +19,11 @@
 <body>
 
     <header class="header">
-        <h1 class="header__h1">Women in tech</h1>
+        <h1 class="header__h1"><a ref="Home" href="./index.html">Women in tech</a></h1>
         <nav class="header__nav">
             <ul class="list">
-                <li><a ref="equipo" href="#team" class="list__element">Equipo</a></li>
-                <li><a ref="quiénes somos" href="#quienes-somos" class="list__element">Quiénes somos</a></li>
+                <li><a ref="equipo" href="./index.html#team" class="list__element">Equipo</a></li>
+                <li><a ref="quiénes somos" href="./index.html#aboutUs" class="list__element">Quiénes somos</a></li>
                 <li><a ref="contacto" href="./contacto.html" class="list__element">Contacto</a></li>
             </ul>
         </nav>
@@ -36,22 +36,22 @@
         <section class="contact">
             <h2 class="contact__title">Contacto</h2>
             <p class="contact__text">Si necesitas nuestros servicios y tienes alguna duda o te gustaría obtener más información, puedes rellenar el siguiente formulario y nos pondremos el contacto contigo lo más pronto posible</p>
-            <small class="contact__small">Todos los campos marcados con <span class="small--asterisk">*</span> son
+            <small class="contact__small">Todos los campos marcados con <span class="contact__small--asterisk">*</span> son
                 obligatorios.</small>
         </section>
 
-        <form class="formulary" action="/signup" method="post">
+        <form class="formulary" action="https://formspree.io/f/{sra.picadillo@gmail.com}" method="post">
             <label class="star" for="fullName">Nombre completo</label>
-            <input placeholder="Nombre..." type="text" id="fullName" name="fullName" />
+            <input placeholder="Nombre..." type="text" id="fullName" name="Nombre completo" />
             <div class="flex">
                 <div class="div">
                     <label class="star" for="emailAddress">Email</label>
-                    <input class="email-container" placeholder="Nombre.apellidos@mail.com" type="email" id="emailAddress" name="emailAddress" />
+                    <input class="email-container" placeholder="Nombre.apellidos@mail.com" type="email" id="emailAddress" name="Dirección de email" />
                 </div>
                     
                 <div class="div">
                     <label for="telephone">Teléfono</label>
-                    <input placeholder="Ej:123456789" type="tel" id="telephone" name="telephone" />
+                    <input placeholder="Ej:123456789" type="tel" id="telephone" name="Teléfono" />
                 </div>
                 
                     
@@ -63,35 +63,23 @@
 
     </main>
 
-    <!--<footer class="footer">
-    <p class="footer__name">
-        Women in Tech &copy;2022
-    </p>
-    <nav>
-        <ul class="footer__list">
-            <li> <a href="./index.html" class="footer__list__link">Equipo</a> </li>
-            <li> <a href="#quienes-somos" class="footer__list__link">Quiénes somos</a> </li>
-            <li> <a href="./contacto.html" class="footer__list__link">Contacto</a></li>
-        </ul>
-    </nav>
-    <a href="https://adalab.es/" class="footer__brand" target="_blank">
-        <img class="footer__brand__logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
-    </a>
-</footer>-->
-
     <footer class="footer">
-        <p class="footer-name">
+        <p class="footer__name">
             Women in Tech &copy;2022
         </p>
-        <nav class="container-list">
-            <ul class="footer-list">
-                <li> <a href="./index.html">Equipo</a> </li>
-                <li> <a href="#quienes-somos">Quiénes somos</a> </li>
-                <li> <a href="./contacto.html">Contacto</a> </li>
+        <nav>
+            <ul class="footer__list">
+                <li> <a href="./index.html#team" class="footer__list__link">Equipo</a> </li>
+                <li> <a href="./index.html#aboutUs" class="footer__list__link">Quiénes somos</a> </li>
+                <li> <a href="./contacto.html" class="footer__list__link">Contacto</a></li>
             </ul>
         </nav>
-        <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
+        <a href="https://adalab.es/" class="footer__brand" target="_blank">
+            <img class="footer__brand__logo" src="./assets/images/logo-adalab.png" alt="Logo de Adalab">
+        </a>
     </footer>
+
+
 </body>
 
 </html>
