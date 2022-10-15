@@ -77,9 +77,14 @@
     margin-top: 30px;
     margin-bottom: 60px;
     border-radius: 5px;
+  }
+    .send:hover{
     animation-name: send;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    cursor: pointer;
+    }
+    
     @keyframes send {
       0% {
         transform: translateX(-3%);
@@ -95,7 +100,6 @@
       }
     }
   }
-}
 
 @media screen and (min-width: 768px) {
   .contact {

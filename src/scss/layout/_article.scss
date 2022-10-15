@@ -60,7 +60,6 @@
 .member-info {
   @media all and (min-width: 768px) {
     width: 443px;
-    margin-left: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,4 +144,20 @@
       }
     }
   }
+}
+
+.fa-twitter:hover{
+  color: #00acee;
+}
+
+.fa-linkedin-in:hover{
+  color: #0e76a8;
+}
+
+.fa-github-alt:hover{
+  color: black;
+}
+
+.fa-envelope:hover{
+  color: #EA4335;
 }
