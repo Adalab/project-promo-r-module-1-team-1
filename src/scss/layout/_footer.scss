@@ -61,6 +61,42 @@
       color: var(--gunmetal);
       padding: 0;
     }
+
+    a {
+      position: relative;
+    }
+
+    .link:after {
+      content: "";
+      position: absolute;
+      background-color: var(--blue-green);
+      height: 2px;
+      bottom: 20px;
+      width: 0;
+      left: 0;
+      transition: all 0.3s;
+    }
+    .link:hover:after {
+      width: 100%;
+    }
+    
+    .link:before{
+      position: absolute;
+      left: 0px;
+      width: 100%;
+      height: 2px;
+      top: 20px;
+      background-color: var(--blue-green);
+      content: "";
+      opacity: 0;
+      transition: all 0.3s;
+    }
+    
+    .link:hover:after, .link:hover:before{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+
   }
 
   &__brand {
@@ -81,40 +117,4 @@
       order: 1;
     }
   }
-}
-
-
-a {
-  position: relative;
-}
-
-.link:after {
-  content: "";
-  position: absolute;
-  background-color: var(--blue-green);
-  height: 2px;
-  bottom: 20px;
-  width: 0;
-  left: 0;
-  transition: all 0.3s;
-}
-.link:hover:after {
-  width: 100%;
-}
-
-.link:before{
-  position: absolute;
-  left: 0px;
-  width: 100%;
-  height: 2px;
-  top: 20px;
-  background-color: var(--blue-green);
-  content: "";
-  opacity: 0;
-  transition: all 0.3s;
-}
-
-.link:hover:after, .link:hover:before{
-  opacity: 1;
-  transform: translateY(0px);
 }
